@@ -2,19 +2,19 @@
 
 # GENERAL SITE SETTINGS
 # title: This will be displayed as the website's name in your browser tab.
-title: Neumorphism
+title: 
 # description: This will be meta HTML tag content. This can be ignored.
 description: Personal website powered by Jekyll
 # baseurl: The subpath of your site
 # > set this to "", if you renamed the repository to <user>.github.io
-baseurl: "/neumorphism"
+baseurl: "https://eazuooz.github.io"
 
 # LANDING PAGE
 # username: This will displayed on the landing page as your name.
-username: Neumorphism
+username: LeeJunJae
 # typing_text: This will be typed before 'scroll down for more'.
 # > set this to your job title, e.g. Fullstack Developer
-typing_text: Jekyll Theme
+typing_text: portfolio
 # email: Your E-Mail address for the email button.
 email: email@example.com
 # For every social button you want to display, set your username or userid
@@ -25,7 +25,7 @@ codepen_username: exampleUser
 dev_username: exampleUser
 linkedin_username: exampleUser
 twitter_username: exampleUser
-
+ 
 # ABOUT ME SECTION
 # show_aboutme_card:
 # > setting this to true, will display the About Me section
@@ -34,7 +34,7 @@ show_aboutme_card: true
 # about_me_title: The will be displayed as the title in the About Me section
 about_me_title: About Me
 # about_me_description: This will be displayed under the title.
-about_me_description: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. If you like this theme and want to use it for yourself, checkout the source code and the documentation at <a class="highlight-link" href="https://github.com/longpdo/neumorphism" target="_blank" rel="noreferrer"> Github </a>. You can also find me on <a class="highlight-link" href="https://jamstackthemes.dev/theme/jekyll-neumorphism/" target="_blank" rel="noreferrer">JAMstack Themes</a> and on <a class="highlight-link" href="https://jekyll-themes.com/neumorphism/" target="_blank" rel="noreferrer">Jekyll Themes</a>.
+about_me_description: 열정적이고 의욕적인 프로그래머로 C++, Unity 및 Unreal과 같은 게임 개발 엔진, 실시간 컴퓨터 그래픽 기술을 통하여 게임개발을 해왔습니다. 저는 문제 해결 능력에 대한 강력한 기반을 가지고 있고 여러 인디팀을 거치면서 의사 소통능력과 팀워크 능력이 뛰어나다고 생각합니다. 또한 팀에 주도성, 창의성을 제공하기 위해 노력하고 있습니다. 여기 <a class="highlight-link" href="https://github.com/MYOMYO3" target="_blank" rel="noreferrer"> Github </a> 에서 전체 포트폴리오를 확인하거나 <a class="highlight-link" href="https://drive.google.com/file/d/1WC10DSCsgvLHdhkoi-bAgOSjdYQVimLX/view?usp=sharing" target="_blank" rel="noreferrer"> 이력서 </a>를 볼수 있습니다.
 
 # SKILLS SECTION
 # show_skills_card:
@@ -69,7 +69,7 @@ projects_title: Projects
 # show_os_projects:
 # > setting this to true, will display your public projects on github
 # > setting this to false, will omit your public projects on github
-show_os_projects: true
+show_os_projects: false
 # os_projects_title: The will be displayed as the title of your open source projects
 os_projects_title: Open Source Projects
 
@@ -81,12 +81,12 @@ show_contact_card: true
 # contact_title: The will be displayed as the title in the Contact section
 contact_title: Contact
 # contact_description: This will be displayed under the title.
-contact_description: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. If you like this theme and want to use it for yourself, checkout the source code and the documentation at <a class="highlight-link" href="https://github.com/longpdo/neumorphism" target="_blank" rel="noreferrer"> Github </a>.
+contact_description: <a class="highlight-link" href="https://github.com/MYOMYO3" target="_blank" rel="noreferrer"> Github </a>. 
 
 # GITHUB-METADATA
 # Set this to your forked repository
 # > e.g. <user>/<user>.github.io
-repository: longpdo/neumorphism
+repository: MYOMYO3/myomyo3.github.io
 projects:
   # sortby:
   # > set this to pushed, if you want to sort your github repositories by time.
