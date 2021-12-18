@@ -12,6 +12,21 @@
             Demo
           </a>
         {% endif %}
+        {% if project.demo_01 %}
+          <a class="highlight-link" href="{{project.demo1}}" target="_blank" rel="noreferrer">
+            Demo_01
+          </a>
+        {% endif %}
+        {% if project.demo_02 %}
+          <a class="highlight-link" href="{{project.demo2}}" target="_blank" rel="noreferrer">
+            Demo_02
+          </a>
+        {% endif %}
+        {% if project.git %}
+          <a class="highlight-link" href="{{project.git}}" target="_blank" rel="noreferrer">
+            Git
+          </a>
+        {% endif %}
         {% if project.tags %}
           <div class="tag-wrapper">
             {% for tag in project.tags %}

@@ -17,45 +17,62 @@
 #     - tag: Rails
 #   timeline-side: right
 
-- title: airbnb
-  title-url: https://example.com/
-  date: Sep 2019 - Present
-  subtitle: Fullstack Developer
-  tags:
-    - tag: React
-    - tag: Javascript
-    - tag: Ruby
-    - tag: Rails
-  timeline-side: right
-
-- title: Google
-  title-url: https://example.com/
-  date: Mar 2019 - Sep 2019
-  subtitle: Software Engineer as Intern
-  tags:
-    - tag: Flutter
-    - tag: Dart
-    - tag: Keycloak
-  timeline-side: right
-
-- title: Super University
-  title-url: https://example.com/
-  date: 2017 - 2019
-  subtitle: M.Sc. Computer Science
-  timeline-side: left
-
-- title: Facebook
-  title-url: https://example.com/
-  date: Sep 2017 - Mar 2019
-  subtitle: Front-End Developer as Intern
-  tags:
-    - tag: React
-    - tag: Node
-    - tag: Javascript
-  timeline-side: right
-
-- title: Super University
-  title-url: https://example.com/
-  date: 2014 - 2017
-  subtitle: B.A. Computer Science
-  timeline-side: left
+ - title: assortrock
+   title-url: https://assortrock.com/
+   date: Mar 2021 - Aug 2021
+   subtitle: Game Network Programming
+   tags:
+     - tag: C / C++
+     - tag: Game Network
+     - tag: OS
+   timeline-side: left
+   
+ - title: Dave Studio
+   title-url: https://www.saramin.co.kr/zf_user/company-info/view/csn/NUZSWUw2WjNCdUNEZXBVQzJsa0FjQT09/company_nm/%EB%8D%B0%EC%9D%B4%EB%B8%8C%EC%8A%A4%ED%8A%9C%EB%94%94%EC%98%A4
+   date: Mar 2021 - Current
+   subtitle: Luna Defense freelancer Programmer
+   tags:
+     - tag: C#
+     - tag: Unity
+   timeline-side: right
+      
+ - title: Vapor World Indigame
+   title-url: https://www.youtube.com/watch?v=J7N81zke5QY
+   date: Jan 2021 - Mar 2021
+   subtitle: Client Programmer
+   tags:
+     - tag: C#
+     - tag: Unity
+   timeline-side: right
+   
+ - title: Neople
+   title-url: https://www.neople.co.kr/neople/main/
+   date: Sep 2020 - Dec 2012
+   subtitle: Dungeon and Fighter Client Team Intern
+   tags:
+     - tag: C++
+     - tag: Confluence
+   timeline-side: right
+      
+ - title: assortrock
+   title-url: https://assortrock.com/
+   date: Jan 2019 - Jun 2020
+   subtitle: Game Network Programming
+   tags:
+     - tag: C / C++
+     - tag: STL
+     - tag: WinAPI
+     - tag: DirectX11
+     - tag: Game Engine Framework
+   timeline-side: left
+      
+ - title: MinCode Algorithm
+   title-url: https://mincoding.co.kr/
+   date: Jun 2018 - Dec 2018
+   subtitle: Algorithm problem solving
+   tags:
+     - tag: C
+     - tag: Data Structure
+     - tag: Algorithm
+   timeline-side: left
+ 

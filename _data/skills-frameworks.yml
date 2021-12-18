@@ -5,29 +5,20 @@
 # - name: Framework
 #   weight: 5
 
-- name: Angular
+- name: Unity
   weight: 5
 
-- name: AngularJS
+- name: QT
   weight: 3
 
-- name: React
+- name: SDL
   weight: 4
 
-- name: Node
-  weight: 1
-
-- name: Flutter
-  weight: 2
-
-- name: Express
-  weight: 3
-
-- name: Django
-  weight: 1
-
-- name: Spring
-  weight: 2
-
-- name: Rails
+- name: ImGui
   weight: 4
+  
+- name: OpenGL
+  weight: 2
+  
+- name: Directx11
+  weight: 2
