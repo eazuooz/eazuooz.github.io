@@ -82,14 +82,14 @@
     
 - name: Chat TCP
   descr: "TCP통신을 QT 라이브러리를 사용하여 만든 채팅 프로그램"
-  demo : https://www.youtube.com/watch?v=1bweL14hUNo
+  demo : https://www.youtube.com/watch?v=x4I2msHsUsU
   tags:
     - tag: C++
     - tag: QT
     
-    - name: Chat UDP
+- name: Chat UDP
   descr: "UDP통신을 QT 라이브러리를 사용하여 만든 채팅 프로그램"
-  demo : https://www.youtube.com/watch?v=x4I2msHsUsU
+  demo : https://www.youtube.com/watch?v=1bweL14hUNo
   tags:
     - tag: C++
     - tag: QT
