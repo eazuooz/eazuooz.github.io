@@ -22,6 +22,11 @@
             Demo_02
           </a>
         {% endif %}
+                {% if project.Build %}
+          <a class="highlight-link" href="{{project.Build}}" target="_blank" rel="noreferrer">
+            Build
+          </a>
+        {% endif %}
         {% if project.git %}
           <a class="highlight-link" href="{{project.git}}" target="_blank" rel="noreferrer">
             Git
