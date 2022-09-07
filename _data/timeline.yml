@@ -26,16 +26,6 @@
      - tag: WinAPI
      - tag: DirectX
    timeline-side: right
-
- - title: assortrock
-   title-url: https://assortrock.com/
-   date: Mar 2021 - Aug 2021
-   subtitle: Learning Game Network Programming
-   tags:
-     - tag: C / C++
-     - tag: Game Network
-     - tag: OS
-   timeline-side: left
    
  - title: Dave Studio
    title-url: https://www.saramin.co.kr/zf_user/company-info/view/csn/NUZSWUw2WjNCdUNEZXBVQzJsa0FjQT09/company_nm/%EB%8D%B0%EC%9D%B4%EB%B8%8C%EC%8A%A4%ED%8A%9C%EB%94%94%EC%98%A4
@@ -47,6 +37,16 @@
      - tag: Game Network
      - tag: DB / OS
    timeline-side: right
+   
+    - title: assortrock
+   title-url: https://assortrock.com/
+   date: Mar 2021 - Aug 2021
+   subtitle: Learning Game Network Programming
+   tags:
+     - tag: C / C++
+     - tag: Game Network
+     - tag: OS
+   timeline-side: left
       
  - title: Indigame Development
    title-url: https://www.youtube.com/watch?v=J7N81zke5QY
