@@ -19,8 +19,18 @@
 
  - title: assortrock
    title-url: https://assortrock.com/
+   date: Set 2022 - Currnet
+   subtitle: Teach Game Programming
+   tags:
+     - tag: C / C++
+     - tag: WinAPI
+     - tag: DirectX
+   timeline-side: right
+
+ - title: assortrock
+   title-url: https://assortrock.com/
    date: Mar 2021 - Aug 2021
-   subtitle: Game Network Programming
+   subtitle: Learning Game Network Programming
    tags:
      - tag: C / C++
      - tag: Game Network
@@ -29,7 +39,7 @@
    
  - title: Dave Studio
    title-url: https://www.saramin.co.kr/zf_user/company-info/view/csn/NUZSWUw2WjNCdUNEZXBVQzJsa0FjQT09/company_nm/%EB%8D%B0%EC%9D%B4%EB%B8%8C%EC%8A%A4%ED%8A%9C%EB%94%94%EC%98%A4
-   date: Mar 2021 - Current
+   date: Mar 2021 - Mar 2022
    subtitle: Luna Defense freelancer Programmer
    tags:
      - tag: C#
@@ -59,7 +69,7 @@
  - title: assortrock
    title-url: https://assortrock.com/
    date: Jan 2019 - Jun 2020
-   subtitle: Game Network Programming
+   subtitle: Learning Game Client Programming 
    tags:
      - tag: C / C++
      - tag: STL
@@ -71,7 +81,7 @@
  - title: MinCode Algorithm
    title-url: https://mincoding.co.kr/
    date: Jun 2018 - Dec 2018
-   subtitle: Algorithm problem solving
+   subtitle: Learning Algorithm problem solving
    tags:
      - tag: C
      - tag: Data Structure
