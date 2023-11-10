@@ -18,11 +18,11 @@
 
  - title: assortrock
    title-url: https://assortrock.com/
-   date: 2022 - current
+   date: 2022 - 2024
    subtitle: Teaching Game Programming
    tags:
      - tag: C / C++
-     - tag: Directx11, Win32, Game Engine Framework
+     - tag: Directx11, GraphicsProgramming, WinAPI, Game Engine Framework
      - tag: OS
    timeline-side: left
 
@@ -36,16 +36,7 @@
      - tag: Game Network
      - tag: DB / OS
    timeline-side: right
-      
- - title: Indigame Development
-   title-url: https://www.youtube.com/watch?v=J7N81zke5QY
-   date: 2021 - 2021
-   subtitle: Client Programmer
-   tags:
-     - tag: C#
-     - tag: Unity
-   timeline-side: right
-   
+     
  - title: Neople
    title-url: https://www.neople.co.kr/neople/main/
    date: 2020 - 2020
