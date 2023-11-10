@@ -63,13 +63,6 @@
     - tag: WinAPI
     - tag: FontWrapper
 
-- name: VAPOR WORLD
-  descr: "Vapor World 인디팀 개발 참여"
-  demo: https://www.youtube.com/watch?v=J7N81zke5QY
-  tags:
-    - tag: C#
-    - tag: Unity Engine
-        
 - name: Luna Server
   descr: "루나 게임내 채팅 서버와 2인 협동플레이를 위한 서버 프로그램"
   git: https://bitbucket.org/andy_bo/luna_fd_source/src/master/Luna_Server/
