@@ -33,8 +33,6 @@
    tags:
      - tag: C#
      - tag: Unity
-     - tag: Game Network
-     - tag: DB / OS
    timeline-side: right
      
  - title: Neople
@@ -46,7 +44,7 @@
      - tag: Confluence
    timeline-side: right
       
- - title: assortrock
+ - title: learning gameprogramming (assortrock)
    title-url: https://assortrock.com/
    date: 2019 - 2019
    subtitle: Game Programming
@@ -58,7 +56,7 @@
      - tag: Game Engine Framework
    timeline-side: left
       
- - title: MinCode Algorithm
+ - title: learning Algorithm (min coding academy)
    title-url: https://mincoding.co.kr/
    date: 2018 - 2018
    subtitle: Algorithm problem solving
