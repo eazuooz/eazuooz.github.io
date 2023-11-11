@@ -17,7 +17,6 @@
   descr: "데이브 스튜디오 루나 디펜스게임 개발(아트 + 프로그래머 2인개발)"
   demo: https://www.youtube.com/watch?v=fkLOiPEkgPw
   Build: https://drive.google.com/file/d/1O1oCTjpXczy2vTgu_qMrqYEWyzUiPTss/view?usp=sharing
-  git: https://bitbucket.org/andy_bo/luna_fd_source/src/master/
   tags:
     - tag: C#
     - tag: Unity Engine
