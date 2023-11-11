@@ -20,8 +20,6 @@
   tags:
     - tag: C#
     - tag: Unity Engine
-    - tag: Network
-    - tag: DB
 
 - name: AutoChess Copy
   descr: "DirectX 11와 Win32 Api 사용한 자체 엔진 제작 및 오토체스 게임 모작(Copy)"
