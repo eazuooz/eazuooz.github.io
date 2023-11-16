@@ -35,7 +35,7 @@ show_aboutme_card: true
 # about_me_title: The will be displayed as the title in the About Me section
 about_me_title: About Me
 # about_me_description: This will be displayed under the title.
-about_me_description: 열정적이고 의욕적인 프로그래머로 C++, Unity 및 Unreal과 같은 게임 개발 엔진, 실시간 컴퓨터 그래픽 기술을 통하여 게임개발을 해왔습니다. 저는 문제 해결 능력에 대한 강력한 기반을 가지고 있고 다양한 직무를 거치면서 의사 소통능력과 팀워크 능력이 뛰어나다고 생각합니다. 또한 팀에 주도성, 창의성을 제공하기 위해 노력하고 있습니다. 여기 <a class="highlight-link" href="https://github.com/eazuooz" target="_blank" rel="noreferrer"> Github </a> 에서 전체 포트폴리오를 확인하거나 <a class="highlight-link" href="https://drive.google.com/file/d/1WC10DSCsgvLHdhkoi-bAgOSjdYQVimLX/view?usp=sharing" target="_blank" rel="noreferrer"> 이력서 </a>를 볼수 있습니다.
+about_me_description: 열정적이고 의욕적인 프로그래머로 실시간 컴퓨터 그래픽 기술을 통하여 게임개발을 해왔습니다. 저는 문제 해결 능력에 대한 강력한 기반을 가지고 있고 다양한 직무를 거치면서 의사 소통능력과 팀워크 능력이 뛰어나다고 생각합니다. 또한 팀에 주도성, 창의성을 제공하기 위해 노력하고 있습니다. 여기 <a class="highlight-link" href="https://github.com/eazuooz" target="_blank" rel="noreferrer"> Github </a> 에서 전체 포트폴리오를 확인하거나 <a class="highlight-link" href="https://drive.google.com/file/d/1WC10DSCsgvLHdhkoi-bAgOSjdYQVimLX/view?usp=sharing" target="_blank" rel="noreferrer"> 이력서 </a>를 볼수 있습니다. 또한 어려운 게임프로그래밍을 쉽게 배우게 하기 위한 <a class="highlight-link" href="https://www.youtube.com/channel/UCOgtkPoyC0VXhCs7Xk3jvjQ" target="_blank" rel="noreferrer"> 유튜브 </a> 채널도 운영하고 있습니다. 
 
 # SKILLS SECTION
 # show_skills_card:
