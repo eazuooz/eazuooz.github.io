@@ -21,9 +21,7 @@
    date: current
    subtitle: Teaching Game Programming
    tags:
-     - tag: C / C++
-     - tag: Directx11, GraphicsProgramming, WinAPI, Game Engine Framework
-     - tag: OS
+     - tag: Game Programming
    timeline-side: left
 
  - title: assortrock
@@ -32,7 +30,7 @@
    subtitle: Teaching Game Programming
    tags:
      - tag: C / C++
-     - tag: Directx11, GraphicsProgramming, WinAPI, Game Engine Framework
+     - tag: GraphicsProgramming, Game Engine Framework
      - tag: OS
    timeline-side: left
 
