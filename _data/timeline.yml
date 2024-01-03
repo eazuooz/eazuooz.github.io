@@ -18,13 +18,13 @@
 
  - title: assortrock
    title-url: https://assortrock.com/
-   date: 2022 - 2024
+   date: 2022 - 2023
    subtitle: Teaching Game Programming
    tags:
      - tag: C / C++
      - tag: Directx11, GraphicsProgramming, WinAPI, Game Engine Framework
      - tag: OS
-   timeline-side: right
+   timeline-side: left
 
  - title: Dave Studio
    title-url: https://www.saramin.co.kr/zf_user/company-info/view/csn/NUZSWUw2WjNCdUNEZXBVQzJsa0FjQT09/company_nm/%EB%8D%B0%EC%9D%B4%EB%B8%8C%EC%8A%A4%ED%8A%9C%EB%94%94%EC%98%A4
@@ -44,25 +44,4 @@
      - tag: C++
      - tag: Confluence
    timeline-side: right
-      
- - title: learning gameprogramming (assortrock)
-   title-url: https://assortrock.com/
-   date: 2019 - 2019
-   subtitle: Game Programming
-   tags:
-     - tag: C / C++
-     - tag: STL
-     - tag: WinAPI
-     - tag: DirectX11
-     - tag: Game Engine Framework
-   timeline-side: left
-      
- - title: learning Algorithm (min coding academy)
-   title-url: https://mincoding.co.kr/
-   date: 2018 - 2018
-   subtitle: Algorithm problem solving
-   tags:
-     - tag: C
-     - tag: Data Structure
-     - tag: Algorithm
-   timeline-side: left
+
