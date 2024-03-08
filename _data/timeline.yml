@@ -16,13 +16,13 @@
 #     - tag: Rails
 #   timeline-side: right
 
- - title: yamyamcoding
-   title-url: https://www.youtube.com/channel/UCOgtkPoyC0VXhCs7Xk3jvjQ
-   date: current
-   subtitle: Teaching Game Programming
-   tags:
-     - tag: Game Programming
-   timeline-side: left
+# - title: yamyamcoding
+#   title-url: https://www.youtube.com/channel/UCOgtkPoyC0VXhCs7Xk3jvjQ
+#   date: current
+#   subtitle: Teaching Game Programming
+#   tags:
+#     - tag: Game Programming
+# timeline-side: left
 
  - title: assortrock
    title-url: https://assortrock.com/
