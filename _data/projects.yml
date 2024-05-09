@@ -25,7 +25,7 @@
   demo: https://www.inflearn.com/course/%EA%B2%8C%EC%9E%84%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8-%EC%B7%A8%EC%97%85-%EB%B9%84%EB%B2%95
   tags:
     - tag: C++
-    _ tag: Interview
+    - tag: Interview
 
 - name: Self Programming in C++
   descr: "C++ 기초 강의 런칭"
