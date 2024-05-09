@@ -15,21 +15,21 @@
 
 - name: C++ GameEnigne Framework Lecture
   descr: "C++을 이용한 자체 엔진 제작(유니티 엔진 클론코딩) 강의 런칭"
-  #git: https://www.inflearn.com/course/cpp-%EC%9E%90%EC%B2%B4%EC%97%94%EC%A7%84-%EC%A0%9C%EC%9E%91
+  #demo: https://www.inflearn.com/course/cpp-%EC%9E%90%EC%B2%B4%EC%97%94%EC%A7%84-%EC%A0%9C%EC%9E%91
   tags:
     - tag: C++
     - tag: Win32API
 
 - name: Game Programming Job Interview Lecture
   descr: "게임 프로그래밍 취업 질의응답 강의 런칭"
-  #git: https://www.inflearn.com/course/%EA%B2%8C%EC%9E%84%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8-%EC%B7%A8%EC%97%85-%EB%B9%84%EB%B2%95
+  #demo: https://www.inflearn.com/course/%EA%B2%8C%EC%9E%84%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8-%EC%B7%A8%EC%97%85-%EB%B9%84%EB%B2%95
   tags:
     - tag: C++
     _ tag: Interview
 
 - name: Self Programming in C++
   descr: "C++ 기초 강의 런칭"
-  #git: https://www.inflearn.com/course/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EB%8A%A5%EB%A0%A5-%ED%82%A4%EC%9A%B0%EB%8A%94-%EC%94%A8%EC%81%A0%EC%81%A0
+  #demo: https://www.inflearn.com/course/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EB%8A%A5%EB%A0%A5-%ED%82%A4%EC%9A%B0%EB%8A%94-%EC%94%A8%EC%81%A0%EC%81%A0
   tags:
     - tag: C++
 
@@ -50,67 +50,4 @@
     - tag: C#
     - tag: Unity Engine
 
-- name: AutoChess Copy
-  descr: "DirectX 11와 Win32 Api 사용한 자체 엔진 제작 및 오토체스 게임 모작(Copy)"
-  git: https://github.com/eazuooz/DirectX_3D_Portfolio
-  demo: https://www.youtube.com/watch?v=m6Gt65MriYw
-  tags:
-    - tag: C++
-    - tag: DirectX11
-    - tag: HLSL
-    - tag: STL
-    - tag: FMOD
-    - tag: WinAPI
-    - tag: FontWrapper
 
-- name: Insaniaquarium Copy
-  descr: "DirectX 11와 Win32 Api 사용한 자체 엔진 제작 및 광란의 수족관 게임 모작(Copy)"
-  git: https://github.com/eazuooz/Direct2D_Portfolio
-  demo: https://www.youtube.com/watch?v=9pA_mgLUzec
-  tags:
-    - tag: C++
-    - tag: DirectX11
-    - tag: HLSL
-    - tag: STL
-    - tag: FMOD
-    - tag: WinAPI
-    - tag: FontWrapper
-    
-- name: MegamanX6 Copy
-  descr: "Win32 Api 사용한 자체 엔진 제작 및 메가맨X6 게임 모작(Copy)"
-  git: https://github.com/eazuooz/WindowsAPI_Portfolio
-  demo: https://www.youtube.com/watch?v=bxvlhTq5BZI
-  tags:
-    - tag: C++
-    - tag: DirectX11
-    - tag: HLSL
-    - tag: STL
-    - tag: FMOD
-    - tag: WinAPI
-    - tag: FontWrapper
-            
-- name: YamYam Engine
-  descr: "OpenGL, SDL을 활용하여 렌더링 엔진 개발(개인 프로젝트)"
-  git: https://github.com/eazuooz/YamYamEngine_OpenGL
-  tags:
-    - tag: C++
-    - tag: OpenGL
-    - tag: GLSL
-    - tag: SDL
-    - tag: FMOD
-    - tag: Assimp
-    - tag: SOIL
-    
-- name: Chat TCP
- descr: "TCP통신을 QT 라이브러리를 사용하여 만든 채팅 프로그램"
- demo : https://www.youtube.com/watch?v=1bweL14hUNo&t=1s
- tags:
-   - tag: C++
-   - tag: QT
-    
-- name: Chat UDP
-  descr: "UDP통신을 QT 라이브러리를 사용하여 만든 채팅 프로그램"
-  demo : https://www.youtube.com/watch?v=x4I2msHsUsU
-  tags:
-    - tag: C++
-    - tag: QT
