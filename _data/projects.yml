@@ -15,21 +15,21 @@
 
 - name: C++ GameEnigne Framework Lecture
   descr: "C++을 이용한 자체 엔진 제작(유니티 엔진 클론코딩) 강의 런칭"
-  git: https://www.inflearn.com/course/cpp-%EC%9E%90%EC%B2%B4%EC%97%94%EC%A7%84-%EC%A0%9C%EC%9E%91
+  #git: https://www.inflearn.com/course/cpp-%EC%9E%90%EC%B2%B4%EC%97%94%EC%A7%84-%EC%A0%9C%EC%9E%91
   tags:
     - tag: C++
     - tag: Win32API
 
 - name: Game Programming Job Interview Lecture
   descr: "게임 프로그래밍 취업 질의응답 강의 런칭"
-  git: https://www.inflearn.com/course/%EA%B2%8C%EC%9E%84%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8-%EC%B7%A8%EC%97%85-%EB%B9%84%EB%B2%95
+  #git: https://www.inflearn.com/course/%EA%B2%8C%EC%9E%84%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8-%EC%B7%A8%EC%97%85-%EB%B9%84%EB%B2%95
   tags:
     - tag: C++
     _ tag: Interview
 
 - name: Self Programming in C++
   descr: "C++ 기초 강의 런칭"
-  git: https://www.inflearn.com/course/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EB%8A%A5%EB%A0%A5-%ED%82%A4%EC%9A%B0%EB%8A%94-%EC%94%A8%EC%81%A0%EC%81%A0
+  #git: https://www.inflearn.com/course/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EB%8A%A5%EB%A0%A5-%ED%82%A4%EC%9A%B0%EB%8A%94-%EC%94%A8%EC%81%A0%EC%81%A0
   tags:
     - tag: C++
 
