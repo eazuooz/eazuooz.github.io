@@ -12,9 +12,6 @@
 #     - tag: Express
 #     - tag: AngularJS
 #     - tag: Node
-
-
-
 - name: YamYam_Engine(Window)
   descr: "Directx11, imgui를 사용하여 렌더링 엔진 개발(개인 프로젝트)"
   git: https://github.com/eazuooz/YamYam_Engine
@@ -84,11 +81,11 @@
     - tag: SOIL
     
 - name: Chat TCP
- descr: "TCP통신을 QT 라이브러리를 사용하여 만든 채팅 프로그램"
- demo : https://www.youtube.com/watch?v=1bweL14hUNo&t=1s
- tags:
-   - tag: C++
-   - tag: QT
+  descr: "TCP통신을 QT 라이브러리를 사용하여 만든 채팅 프로그램"
+  demo : https://www.youtube.com/watch?v=1bweL14hUNo&t=1s
+  tags:
+    - tag: C++
+    - tag: QT
     
 - name: Chat UDP
   descr: "UDP통신을 QT 라이브러리를 사용하여 만든 채팅 프로그램"
@@ -96,4 +93,3 @@
   tags:
     - tag: C++
     - tag: QT
-
