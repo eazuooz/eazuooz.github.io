@@ -12,13 +12,11 @@
 #     - tag: Express
 #     - tag: AngularJS
 #     - tag: Node
-- name: Test(Window)
-  descr: "Directx11, imgui를 사용하여 렌더링 엔진 개발(개인 프로젝트)"
-  git: https://github.com/eazuooz/YamYam_Engine
+- name: Self Programming in C++
+  descr: "C++ 기초 강의 런칭"
+  demo: https://www.inflearn.com/course/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EB%8A%A5%EB%A0%A5-%ED%82%A4%EC%9A%B0%EB%8A%94-%EC%94%A8%EC%81%A0%EC%81%A0
   tags:
     - tag: C++
-    - tag: Directx
-    - tag: HLSL
     
 - name: YamYam_Engine(Window)
   descr: "Directx11, imgui를 사용하여 렌더링 엔진 개발(개인 프로젝트)"
