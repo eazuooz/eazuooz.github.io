@@ -24,13 +24,13 @@
 #     - tag: Game Programming
 # timeline-side: left
 
- - title: assortrock
-   title-url: https://assortrock.com/
+ - title: Neo Lock
+   #title-url: https://assortrock.com/
    date: 2022 - 2023
-   subtitle: Teaching Game Programming
+   subtitle: Rendering Engine Developement (Windows)
    tags:
      - tag: C / C++
-     - tag: GraphicsProgramming, Game Engine Framework
+     - tag: GraphicsProgramming, Engine Framework
      - tag: OS
    timeline-side: left
 
