@@ -97,15 +97,3 @@
     - tag: C++
     - tag: QT
 
-- name: test
-  descr: "test"
-  #git: https://github.com/eazuooz/Direct2D_Portfolio
-  #demo: https://www.youtube.com/watch?v=9pA_mgLUzec
-  tags:
-    - tag: C++
-    - tag: DirectX11
-    - tag: HLSL
-    - tag: STL
-    - tag: FMOD
-    - tag: WinAPI
-    - tag: FontWrapper
