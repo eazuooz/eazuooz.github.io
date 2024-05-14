@@ -26,13 +26,14 @@
     - tag: C++
     - tag: DirectX
     - tag: WindowsAPI
-
+    
 - name: Game Programming Job Interview Lecture
   descr: "게임 프로그래밍 취업 질의응답 강의 런칭"
   demo: https://inf.run/SXS6z
   tags:
     - tag: C++
-    - tag: Interview
+    - tag: DirectX
+    - tag: WindowsAPI
 
 - name: Self Programming in C++
   descr: "C++ 기초 강의 런칭"
