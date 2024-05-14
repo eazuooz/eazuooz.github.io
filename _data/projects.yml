@@ -12,6 +12,13 @@
 #     - tag: Express
 #     - tag: AngularJS
 #     - tag: Node
+- name: C++ GameEnigne Framework Lecture
+  descr: "C++을 이용한 자체 엔진 제작(유니티 엔진 클론코딩) 강의 런칭"
+  demo: https://inf.run/dnN3k
+  tags:
+    - tag: C++
+    - tag: WindowsAPI
+
 - name: C++ GameEnigne Rendering Lecture
   descr: "Directx11을 이용한 게임 엔진 만들기 강의 런칭"
   demo: https://inf.run/X6NSM
@@ -20,14 +27,7 @@
     - tag: DirectX
     _ tag: HLSL
     - tag: WindowsAPI
-    
-- name: C++ GameEnigne Framework Lecture
-  descr: "C++을 이용한 자체 엔진 제작(유니티 엔진 클론코딩) 강의 런칭"
-  demo: https://inf.run/dnN3k
-  tags:
-    - tag: C++
-    - tag: WindowsAPI
-    
+  
 - name: Game Programming Job Interview Lecture
   descr: "게임 프로그래밍 취업 질의응답 강의 런칭"
   demo: https://inf.run/SXS6z
