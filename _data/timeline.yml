@@ -24,6 +24,16 @@
 #     - tag: Game Programming
 # timeline-side: left
 
+ - title: OZ Intermedia  
+   #title-url: https://assortrock.com/
+   date: 2024 - 2024
+   subtitle: Game Client/Server Development (Windows)
+   tags:
+     - tag: C / C++
+     - tag: GraphicsProgramming, Game Contents
+     - tag: Network
+   timeline-side: right
+
  - title: Neo Lock
    #title-url: https://assortrock.com/
    date: 2022 - 2023
@@ -55,7 +65,7 @@
  - title: Neople
    #title-url: https://www.neople.co.kr/neople/main/
    date: 2020 - 2020
-   subtitle: Dungeon and Fighter Client Team
+   subtitle: Game Client Team
    tags:
      - tag: C++
      - tag: Confluence
