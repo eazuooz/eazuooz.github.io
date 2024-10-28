@@ -32,6 +32,11 @@
             Git
           </a>
         {% endif %}
+        {% if project.link %}
+          <a class="highlight-link" href="{{project.git}}" target="_blank" rel="noreferrer">
+            Link
+          </a>
+        {% endif %}
         {% if project.tags %}
           <div class="tag-wrapper">
             {% for tag in project.tags %}
