@@ -1,7 +1,7 @@
-{% if site.show_projects %}
+{% if site.show_lectures %}
   <h1 class="title"><span>{{site.projects_title}}</span></h1>
   <div class="projects-wrapper">
-    {% for project in site.data.projects %}
+    {% for project in site.data.lectures %}
       <div class="project neumorphism-card" data-aos="zoom-in-down">
         <div class="name-link-wrapper">
           <h3>{{project.name}}</h3>
@@ -44,7 +44,7 @@
   </div>
 {% endif %}
 
-{% if site.show_os_projects %}
+{% if site.show_os_lectures %}
   <h1 class="title">{{site.os_projects_title}}</h1>
   {% if site.projects.sort_by == 'stars' %}
     {% assign sort_order = 'stargazers_count', 'last' %}
