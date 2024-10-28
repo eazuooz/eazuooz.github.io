@@ -75,23 +75,23 @@ show_os_projects: false
 # os_projects_title: The will be displayed as the title of your open source projects
 os_projects_title: Open Source Projects
 
-# PROJECTS SECTION
+# LECTURES SECTION
 # show_projects_card:
 # > setting this to true, will display the Projects section
 # > setting this to false, will omit the Projects section
-show_projects_card: true
+show_lectures_card: true
 # show_projects:
 # > setting this to true, will display your listed projects in _data/projects.yml
 # > setting this to false, will omit your listed projects
-show_projects: true
+show_lectures: true
 # projects_title: The will be displayed as the title of your projects
-projects_title: Projects
+lectures_title: Projects
 # show_os_projects:
 # > setting this to true, will display your public projects on github
 # > setting this to false, will omit your public projects on github
-show_os_projects: false
+show_os_lectures: false
 # os_projects_title: The will be displayed as the title of your open source projects
-os_projects_title: Open Source Projects
+os_lectures_title: Open Source Projects
 
 # CONTACT SECTION
 # show_contact_card:
