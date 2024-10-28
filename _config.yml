@@ -85,7 +85,7 @@ show_lectures_card: true
 # > setting this to false, will omit your listed projects
 show_lectures: true
 # projects_title: The will be displayed as the title of your projects
-lectures_title: Projects
+lectures_title: Lectures
 # show_os_projects:
 # > setting this to true, will display your public projects on github
 # > setting this to false, will omit your public projects on github
