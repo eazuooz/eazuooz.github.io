@@ -21,14 +21,14 @@
     - tag: Mathmathics
 
 - name: C++ GameEnigne Framework Lecture
-  descr: "C++을 이용한 자체 엔진 제작(유니티 엔진 클론코딩) 강의 런칭"
+  descr: "C++을 이용한 자체 엔진 제작(유니티 엔진 클론코딩) 강의"
   link: https://inf.run/dnN3k
   tags:
     - tag: C++
     - tag: WindowsAPI
 
 - name: C++ GameEnigne Rendering Lecture
-  descr: "Directx11을 이용한 렌더링 엔진 만들기 강의 런칭"
+  descr: "Directx11을 이용한 렌더링 엔진 만들기 강의"
   link: https://inf.run/X6NSM
   tags:
     - tag: C++
@@ -36,7 +36,7 @@
     - tag: WindowsAPI
     
 - name: Game Programming Job Interview Lecture
-  descr: "게임 프로그래밍 취업 질의응답 강의 런칭"
+  descr: "게임 프로그래밍 취업 질의응답 강의"
   link: https://inf.run/SXS6z
   tags:
     - tag: C++
@@ -44,15 +44,24 @@
     - tag: WindowsAPI
 
 - name: Self Programming in C++
-  descr: "C++ 기초 강의 런칭"
+  descr: "C++ 기초 강의"
   link: https://inf.run/rhUkF
   tags:
     - tag: C++
 
-- name: Self DataStructure/Algorithm Programming in C++
-  descr: "C++ 기초 자료구조/알고리즘 강의 런칭"
+- name: Self Basic DataStructure/Algorithm Programming in C++
+  descr: "C++ 기초 자료구조/알고리즘 강의"
   link: https://inf.run/d4Lg7
   tags:
     - tag: C++
     - tag: DataStructure
     - tag: Algorithm
+
+- name: Self Intermediate DataStructure/Algorithm Programming in C++
+  descr: "C++ 고급 알고리즘 강의"
+  link: https://inf.run/QWGMg
+  tags:
+    - tag: C++
+    - tag: DataStructure
+    - tag: Algorithm
+    
