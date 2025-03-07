@@ -26,7 +26,7 @@
 
  - title: OZ Intermedia  
    #title-url: https://assortrock.com/
-   date: 2024 - 2024
+   date: 2024.05 - 2024.11
    subtitle: Game Client/Server Development (Windows)
    tags:
      - tag: C / C++
@@ -36,7 +36,7 @@
 
  - title: Neo Lock
    #title-url: https://assortrock.com/
-   date: 2022 - 2023
+   date: 2021.09 - 2023.01
    subtitle: Rendering Engine Developement (Windows)
    tags:
      - tag: C / C++
@@ -46,7 +46,7 @@
 
  - title: Korea National Open University
    #title-url: https://www.knou.ac.kr/knou/index.do?epTicket=LOG
-   date: 2021 - 2024
+   date: 2013 - 2025
    subtitle: Bachelor’s Degree in Computer Science
    tags:
      - tag: Computer Science
@@ -54,7 +54,7 @@
 
  - title: Dave Studio
    #title-url: https://www.saramin.co.kr/zf_user/company-info/view/csn/NUZSWUw2WjNCdUNEZXBVQzJsa0FjQT09/company_nm/%EB%8D%B0%EC%9D%B4%EB%B8%8C%EC%8A%A4%ED%8A%9C%EB%94%94%EC%98%A4
-   date: 2021 - 2022
+   date: 2021.02 - 2022.03
    subtitle: Game Programmer (lead personal developement)
    tags:
      - tag: C#
@@ -64,7 +64,7 @@
      
  - title: Neople
    #title-url: https://www.neople.co.kr/neople/main/
-   date: 2020 - 2020
+   date: 2020.09 - 2021.01
    subtitle: Game Client Team
    tags:
      - tag: C++
