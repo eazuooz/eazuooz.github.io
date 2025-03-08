@@ -29,7 +29,7 @@
 
 - name: C++ GameEnigne Rendering Lecture
   descr: "Directx11을 이용한 렌더링 엔진 만들기 강의"
-  link: https://inf.run/X6NSM
+  link: https://inf.run/iRiUg
   tags:
     - tag: C++
     - tag: DirectX
