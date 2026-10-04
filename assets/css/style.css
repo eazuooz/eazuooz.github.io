@@ -1244,4 +1244,4 @@ a:focus-visible, button:focus-visible, [role='button']:focus-visible { outline: 
 .project-icon i { display: inline-block; }
 .resume .education-item { display: flow-root; }
 .resume .education-item h4 { line-height: 1.5; text-transform: none; }
-.resume .institution-logo { background: #fff; border-radius: 6px; padding: 6px; }
+.resume .institution-logo { background: transparent; border-radius: 0; padding: 0; }
