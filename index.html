@@ -15,15 +15,14 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Jay Lee - GameDev resume</title>
-  <!-- <meta content="" name="description">
-  <meta content="" name="keywords"> -->
-  <!-- Meta tags for previews -->
-  <meta property='og:title' content="Jay Lee - Web Portfolio" />
-  <meta property='og:image' content="http://JayLee.github.io/assets/img/thumbnail.jpg" />
-  <meta property='og:description' content="Check out my portfolio to find out more about cool stuff I do!" />
-  <meta property='og:url' content="JayLee.github.io" />
-  <meta property='og:type' content="website" />
+  <title>Jay Lee - Game Programmer</title>
+  <meta name="description" content="Jay Lee's game programming portfolio: Unreal, Unity, DirectX, C++, C#, custom game engines, and YamYamCoding lectures.">
+  <meta property="og:title" content="Jay Lee - Game Programmer">
+  <meta property="og:image" content="https://eazuooz.github.io/assets/img/jay/jay-lee.jpg">
+  <meta property="og:description" content="Game programming, custom engines, and educational content by Jay Lee.">
+  <meta property="og:url" content="https://eazuooz.github.io/">
+  <meta property="og:type" content="website">
+  <link rel="canonical" href="https://eazuooz.github.io/">
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -60,1288 +59,294 @@
 </head>
 
 <body>
-
-  <!-- ======= Mobile nav toggle button ======= -->
-  <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
-
-  <!-- ======= Header ======= -->
+  <button type="button" class="mobile-nav-toggle d-xl-none" aria-label="Toggle navigation"><i class="icofont-navigation-menu" aria-hidden="true"></i></button>
   <header id="header">
     <div class="d-flex flex-column">
-
       <div class="profile">
-        <img src="assets/img/profile_img.jpeg" alt="" class="img-fluid rounded-circle">
-        <h1 class="text-light"><a href="index.html">Jay</a></h1>
-        <h1 class="text-light"><a href="index.html">Lee</a></h1>
-        <div class="social-links mt-3 text-center">
-          <a href="https://github.com/eazuooz" target="_blank" class="github"><i class="bx bxl-github"></i></a>
-          <a href="https://www.linkedin.com/in/JayLee/" target="_blank" class="linkedin"><i
-              class="bx bxl-linkedin"></i></a>
-          <a href="https://JayLee.itch.io/" target="_blank" class="itchio"><i class="bx bxs-home-heart"></i></a>
-        </div>
+        <img src="assets/img/jay/jay-lee.jpg" alt="Jay Lee" class="img-fluid rounded-circle">
+        <h1 class="text-light"><a href="#hero">Jay Lee</a></h1>
+        <p class="profile-title">Game Programmer</p>
+        <div class="social-links mt-3 text-center"><a href="https://github.com/eazuooz" target="_blank" rel="noopener noreferrer" class="github"><i class="bx bxl-github" aria-hidden="true"></i><span class="sr-only">GitHub</span></a><a href="https://www.linkedin.com/in/jaylee-gamedev" target="_blank" rel="noopener noreferrer" class="linkedin"><i class="bx bxl-linkedin" aria-hidden="true"></i><span class="sr-only">LinkedIn</span></a><a href="https://www.youtube.com/@yamyamcoding" target="_blank" rel="noopener noreferrer" class="youtube"><i class="icofont-youtube-play" aria-hidden="true"></i><span class="sr-only">YouTube</span></a><a href="https://www.yamyamcoding.com/" target="_blank" rel="noopener noreferrer" class="yamyamcoding"><i class="icofont-web" aria-hidden="true"></i><span class="sr-only">YamYamCoding</span></a></div>
       </div>
-
-      <nav class="nav-menu">
+      <nav class="nav-menu" aria-label="Main navigation">
         <ul>
-          <li class="active"><a href="#hero"><i class="bx bx-home"></i> <span>Home</span></a></li>
-          <li><a href="#about"><i class="bx bx-user"></i> <span>About</span></a></li>
-          <li><a href="#skills"><i class="bx bx-code"></i> <span>Skills</span></a></li>
-          <li><a href="#resume"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
-          <li><a href="#portfolio"><i class="bx bx-book-content"></i> Portfolio</a></li>
-          <li><a href="#contact"><i class="bx bx-envelope"></i> Contact</a></li>
-          <li><a href="assets/other/Vlad_Hryhorashchenko_Resume.docx"><i class="bx bx-file"></i> Download resume
-              file</a></li>
+          <li class="active"><a href="#hero"><i class="bx bx-home" aria-hidden="true"></i><span>Home</span></a></li>
+          <li><a href="#about"><i class="bx bx-user" aria-hidden="true"></i><span>About</span></a></li>
+          <li><a href="#skills"><i class="bx bx-code" aria-hidden="true"></i><span>Skills</span></a></li>
+          <li><a href="#resume"><i class="bx bx-file-blank" aria-hidden="true"></i><span>Resume</span></a></li>
+          <li><a href="#portfolio"><i class="bx bx-book-content" aria-hidden="true"></i><span>Portfolio</span></a></li>
+          <li><a href="#contact"><i class="bx bx-envelope" aria-hidden="true"></i><span>Contact</span></a></li>
+          <li><a href="assets/other/Jay_Lee_Resume.pdf" download><i class="icofont-download" aria-hidden="true"></i><span>Download resume</span></a></li>
         </ul>
-      </nav><!-- .nav-menu -->
-      <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
-
+      </nav>
     </div>
-  </header><!-- End Header -->
+  </header>
 
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+  <section id="hero" class="d-flex flex-column justify-content-center align-items-center" aria-label="Introduction">
     <div class="hero-container" data-aos="fade-in">
-      <h2><span class="violet">using</span>
-        <span class="yellow">Coffee</span>;
-      </h2>
-      <h2><span class="violet">using</span>
-        <span class="yellow">Creativity</span>;
-      </h2>
-      <h2><span class="violet">using</span>
-        <span class="yellow">UnityEngine</span>;
-      </h2>
-      <h2>
-        <br>
-        <h2><span class="violet">public class</span> 
-          <span class="yellow">Jay Lee</span> : 
-          <span class="violet">GameDeveloper</span> </h2>
-        <h2>
-          <br>
-          {
-          <h2><span class="violet tab">public </span> 
-            <span class="yellow">PersonalTraits</span>
-            <span class="blue">PersonalTraits</span>;
-          </h2>
-          <h2>
-            <h2><span class="violet tab">public </span> 
-              <span class="yellow">Experience</span>
-              <span class="blue">Experience</span>;
-            </h2>
-          <h2>
-            <br>
-            <span class="violet tab">public override </span>
-            <span class="yellow">Code</span>
-            <span class="orange">Work</span>()
-            <h2 class="tab">{</h2>
-          </h2>
-          <h2> <span class="violet doubletab">return </span><span class="orange">WorkAs</span>(<span class="typed green"
-              data-typed-items='"Unreal Developer", "Unity developer", "Graphics developer", "Windows developer"'></span>, <span
-              class="blue">PersonalTraits</span>);
-          </h2>
-          <h2 class="tab">}</h2>
-          <h2>}</h2>
+      <p class="hero-code"><span class="violet">using</span> <span class="yellow">UnrealEngine</span>;<br>
+        <span class="violet">using</span> <span class="yellow">UnityEngine</span>;<br>
+        <span class="violet">using</span> <span class="yellow">DirectX</span>;</p>
+      <h2 class="hero-heading"><span class="violet">public class</span> <span class="yellow">JayLee</span> : <span class="blue">GameProgrammer</span></h2>
+      <div class="hero-code">{<br>
+        <span class="code-indent"><span class="violet">public</span> <span class="yellow">Code</span> <span class="orange">Work</span>()</span><br>
+        <span class="code-indent">{</span><br>
+        <span class="code-indent-double"><span class="violet">return</span> <span class="orange">WorkAs</span>(</span><br>
+        <span class="code-indent-double"><span class="typed green" data-typed-items='"Unreal Developer", "Unity Developer", "Graphics Developer", "Game Programmer"'>"Game Programmer"</span>);</span><br>
+        <span class="code-indent">}</span><br>}</div>
+      <a href="#portfolio" class="hero-cta scrollto">Explore my portfolio <i class="icofont-arrow-right" aria-hidden="true"></i></a>
     </div>
-  </section><!-- End Hero -->
+  </section>
 
   <main id="main">
-
-    <!-- ======= About Section ======= -->
     <section id="about" class="about">
       <div class="container">
-
         <div class="section-title">
-          <h2>/* ------------------------------------- </h2>
-          <h2>About</h2>
-          <h2>---------------------------------------- */</h2>
-        </div>
-
-        <div class="row">
-
-          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-            <h3>
-              <pre><code class="c++"> string Title = "game developer";</code></pre>
-            </h3>
-
-            <h3 style="height: 55px;">
-              <pre><code class="c++">
-                [Serializable]
-                struct PersonalTraits
-                {
-              </code></pre>
-            </h3>
-            <div class="tab">
-              <h3>
-                <pre><code>
-
-                string FullName = "Jay Lee";
-                  
-                string Email = "eazuooz@gmail.com";
-                  
-                string Location = "Canada";
-                                  
-                string[] Spoken_Languages = {"English", "Korean"};
-
-                string[] Hobbies = {"Trail running", "High intensity exercise", "Learning Languages"};
-                  
-                </code></pre>
-              </h3>
-            </div>
-            <h3>
-              <pre><code>}</code></pre>
-            </h3>
-
-            <br>
-            <h3>
-              <span class="yellow">About myself</span>
-            </h3>
-            <p>I am a passionate and driven programmer who has been developing games through real-time computer graphics technology.
-            I have a strong foundation in problem-solving skills and have gained excellent communication and teamwork abilities through various roles. 
-            Additionally, I strive to bring initiative and creativity to my team.
-            You can check out my full portfolio on [GitHub](https://github.com/eazuooz). 
-            Furthermore, I run an educational [YouTube](https://www.youtube.com/channel/UCOgtkPoyC0VXhCs7Xk3jvjQ) channel 
-            with the hope of making complex game programming easier to learn and contributing to diverse game development in South Korea.</p>
-          </div>
-          <div class="col-lg-4" data-aos="fade-right">
-            <img src="assets/img/me_cropped.webp" class="img-fluid" alt="">
-            <br></br>
-            <img src="assets/img/Me_Ubi_edited.webp" class="img-fluid" alt="">
-          </div>
+          <h2><span aria-hidden="true">/* -------------------------------------</span><br>About<br><span aria-hidden="true">---------------------------------------- */</span></h2>
 
         </div>
-      </div>
+        <div class="row align-items-center">
+          <div class="col-lg-8 content" data-aos="fade-right">
+            <pre class="profile-code"><code class="csharp">string Title = "Game Programmer";
 
-      </div>
-    </section><!-- End About Section -->
-
-    <!-- ======= Facts Section ======= -->
-    <section id="facts" class="facts">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>/* ------------------------------------- </h2>
-          <h2>Achievements</h2> <i class="icofont-medal"></i>
-          <h2>---------------------------------------- */</h2>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-7 pt-4 pt-lg-0 content" data-aos="fade-right">
-            <div class="container">
-              <h1> <span class="green">Global Game Jam 2022</span> </h1>
-              <h3> <span class="yellow"><b>Prize:</b></span> <strong class="blue">Best commercial product and Best game feel award</strong>.</h3>
-              <h4><b>Chill city</b> - 3d idle clicker game.</h4>
-              <p>This idle clicker game has won hearts of jury as the most playable and the most commercially capable game. 
-                It was developed in a span of two weeks just by me. Soundtrack and SFX were composed by me.
-              </p>
-            </div>
+struct PersonalTraits
+{
+    string FullName = "Jay Lee";
+    string Email = "eazuooz@gmail.com";
+    string Location = "Canada";
+    string Website = "yamyamcoding.com";
+}</code></pre>
+            <h3 class="yellow about-heading">About myself</h3>
+            <p>I am a passionate and driven programmer who has been developing games through real-time computer graphics technology. I have a strong foundation in problem-solving skills and have gained excellent communication and teamwork abilities through various roles. Additionally, I strive to bring initiative and creativity to my team.</p>
+            <p>You can check out my full portfolio on <a href="https://github.com/eazuooz" target="_blank" rel="noopener noreferrer">GitHub</a>. Furthermore, I run an educational <a href="https://www.youtube.com/@yamyamcoding" target="_blank" rel="noopener noreferrer">YouTube</a> channel with the hope of making complex game programming easier to learn and contributing to diverse game development in South Korea.</p>
+            <div class="about-links"><a href="https://app.notion.com/p/More-About-Me-1b80b1ffa61e8035be1ed4cbc85ca214?pvs=21" target="_blank" rel="noopener noreferrer">More about me</a> &middot; <a href="https://www.yamyamcoding.com/" target="_blank" rel="noopener noreferrer">YamYamCoding</a></div>
           </div>
-          <div class="col-lg-5 pt-4 pt-lg-0 content" data-aos="fade-left">
-                      <div class="container">
-              <img src="assets/img/portfolio/ChillCity.png" class="img-fluid rounded" alt="Image of a 3d game where you can 
-              see buildings and title chill city">
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-7 pt-4 pt-lg-0 content" data-aos="fade-right">
-            <div class="container">
-              <h1> <span class="green">Ubisoft GameJam 2020</span> </h1>
-              <h3> <span class="yellow"><b>Prize:</b></span> <strong class="blue">People's favorite</strong>.</h3>
-              <h4><b>Keep chopping</b> - 3d Local-Multiplayer party game.</h4>
-              <p>I've competed with the most talented programmers and game designers in the industry, and gained
-                a lot of experience working with the team of professionals. </p>
-            </div>
-          </div>
-          <div class="col-lg-5 pt-4 pt-lg-0 content" data-aos="fade-left">
-            <div class="container">
-              <img src="assets/img/portfolio/keepchopping.webp" class="img-fluid rounded" alt="Image of a 3d game where you can see trees and 
-              lumberjacks who are planting and chopping each others trees">
-            </div>
-            <div class="container">
-              <img src="assets/img/ubigamejam_price.webp" class="img-fluid rounded" alt="Image of Price for Ubisoft GameJam. 
-              It says People's choice on it.">
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-7 pt-4 pt-lg-0 content" data-aos="fade-right">
-            <div class="container">
-              <h1> <span class="green">Global Game Jam 2021 Ukraine</span> </h1>
-              <h3> <span class="yellow"><b>Prize:</b></span> <strong class="blue">8th place</strong>.</h3>
-              <h4><b>The white trail</b> - 2d point and click detective game.</h4>
-              <p>I've gathered team of 11 people and been managing the team and doing programming meanwhile. It was a
-                very fun experience! </p>
-            </div>
-          </div>
-          <div class="col-lg-5 pt-4 pt-lg-0 content" data-aos="fade-left">
-            <div class="container">
-              <img src="assets/img/portfolio/TheWhiteTrail.webp" class="img-fluid rounded"
-                alt="Image of a 2d detective game in noir style">
-            </div>
-            <div class="container">
-              <img src="assets/img/GlobalGameJam2021.webp" class="img-fluid rounded" alt="Image of Price for Global Game Jam. 
-              It says People's choice on it.">
-            </div>
+          <div class="col-lg-4" data-aos="fade-left">
+            <img src="assets/img/jay/jay-lee.jpg" class="img-fluid portrait" alt="Portrait of Jay Lee" loading="lazy">
           </div>
         </div>
       </div>
-    </section><!-- End Facts Section -->
+    </section>
 
-    <!-- ======= Skills Section ======= -->
     <section id="skills" class="skills section-bg">
       <div class="container">
-
         <div class="section-title">
-          <h2>/* ------------------------------------- </h2>
-          <h2>Skills</h2>
-          <h2>---------------------------------------- */</h2>
-        </div>
+          <h2><span aria-hidden="true">/* -------------------------------------</span><br>Skills<br><span aria-hidden="true">---------------------------------------- */</span></h2>
 
+        </div>
         <div class="row skills-content">
-          <div class="col-lg-6" data-aos="fade-up">
-            <i class="icofont-code"></i>
-            <h4>General:</h4>
-            <ul>
-              <li>C#</li>
-              <li>Unity 3D</li>
-              <li>Git</li>
-              <li>iOS, Android, WebGL, Windows, Mac, Linux</li>
-              <li>Unit Tests</li>
-              <li>JSON, REST API</li>
-              <li>XCode, Android studio</li>
-              <li>Google play market and Apple store publishing</li>
-              <li>Multithreading</li>
-              <li>Python</li>
-              <li>HTML, CSS, JS</li>
-              <li>SQL, NoSQL Databases</li>
-            </ul>
-          </div>
-          <div class="col-lg-6" data-aos="fade-up">
-            <i class="icofont-cube"></i>
-            <h4>Unity:</h4>
-            <ul>
-              <li>Unity lifecycle</li>
-              <li>Rendering pipeline</li>
-              <li>Scriptable object</li>
-              <li>Unity tools: Ads, iAP, Social API, Analytics, Collaborate, Cloud Build, Cloud Diagnostics</li>
-              <li>Euler angles, Gimbal lock</li>
-              <li>Asset bundles and addressables</li>
-              <li>Unity UI</li>
-            </ul>
-          </div>
-          <div class="col-lg-6" data-aos="fade-up">
-            <i class="icofont-court"></i>
-            <h4>Architecture:</h4>
-            <ul>
-              <li>SOLID, OOP, KISS</li>
-              <li>Singleton and it's cons</li>
-              <li>Factory, Finite state machine, MVC, Observer</li>
-              <li>Strategy, Service locator, Toolbox, Humble objects</li>
-            </ul>
-          </div>
-          <div class="col-lg-6" data-aos="fade-up">
-            <i class="icofont-dashboard-web"></i>
-            <h4>SDKs and Assets:</h4>
-            <ul>
-              <li>DOTween</li>
-              <li>Spine and 2D animation integrations</li>
-              <li>Admob, Audience Network, Unity Ads, Appodeal, Applovin, Vungle, IronSource</li>
-              <li>Unity Analytics, Facebook, Firebase Analytics, GameAnalytics, Adjust</li>
-              <li>Facebook SDK, Google Play Services SDK</li>
-              <li>Firebase SDK</li>
-              <li>Photon SDK</li>
-              <li>Cinemachine</li>
-            </ul>
-          </div>
+          <div class="col-md-6 col-lg-3 skill-group" data-aos="fade-up"><i class="icofont-game-controller" aria-hidden="true"></i><h3>Game Engines</h3><p>Unreal / Unity</p></div>
+          <div class="col-md-6 col-lg-3 skill-group" data-aos="fade-up"><i class="icofont-cube" aria-hidden="true"></i><h3>Graphics</h3><p>DirectX 11 / 12</p></div>
+          <div class="col-md-6 col-lg-3 skill-group" data-aos="fade-up"><i class="bx bx-code-alt" aria-hidden="true"></i><h3>Languages</h3><p>C++ / C#</p></div>
+          <div class="col-md-6 col-lg-3 skill-group" data-aos="fade-up"><i class="icofont-network" aria-hidden="true"></i><h3>Networking</h3><p>Network</p></div>
         </div>
-        <!-- <div class="row skills-content">
-
-          
-          <div class="col-lg-6" data-aos="fade-up">
-
-            <div class="progress">
-              <span class="skill">C# <i class="val">2+ year</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-
-
-            <div class="progress">
-              <span class="skill">C++ <i class="val">6 months</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">Python <i class="val">1+ year</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">HTML and CSS <i class="val">3 years</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-
-            <div class="progress">
-              <span class="skill">Unity3D <i class="val">4+ years</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">Git <i class="val">1.5 year</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">Performance optimization <i class="val">1 year+</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">Unit testing and test-driven development <i class="val">1 year+</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-
-          </div>
-
-        </div> -->
-
       </div>
-    </section><!-- End Skills Section -->
+    </section>
 
-    <!-- ======= Resume Section ======= -->
     <section id="resume" class="resume">
       <div class="container">
-
         <div class="section-title">
-          <h2>/* ------------------------------------- </h2>
-          <h2>Resume</h2>
-          <h2>---------------------------------------- */</h2>
-          <p>Overview of my life path that I took to get here.</p>
-        </div>
+          <h2><span aria-hidden="true">/* -------------------------------------</span><br>Resume<br><span aria-hidden="true">---------------------------------------- */</span></h2>
 
+        </div>
         <div class="row">
           <div class="col-lg-6" data-aos="fade-up">
-            <h3 class="resume-title">Certification</h3>
-            <div class="resume-item">
-              <div class="row">
-                <div class="col-lg-9">
-                  <h4>Introduction to Game Development</h4>
-                  <p><em>HarvardX</em></p>
-                  <p>CS50's Introduction to Game Development
-                    HarvardX. Included 12 test projects.</p>
-                </div>
-                <div class="col-lg-3"><img src="assets/img/icons/harvard.png" class="img-fluid" alt=""></div>
-              </div>
-            </div>
-            <div class="resume-item">
-              <div class="row">
-                <div class="col-lg-9">
-                  <h4>Introduction to Computer Science</h4>
-                  <p><em>HarvardX</em></p>
-                  <p>CS5O's introduction to Computer Science
-                    HarvardX. Included 9 problems and one final project.</p>
-                </div>
-                <div class="col-lg-3"><img src="assets/img/icons/harvard.png" class="img-fluid" alt=""></div>
-              </div>
-            </div>
-            <div class="resume-item">
-              <div class="row">
-                <div class="col-lg-9">
-                  <h4>C2 English Certificate</h4>
-                  <p><em>EF SET</em></p>
-                  <p>The achieved English level is 80/100 on the EF SET score scale and
-                    <strong class="blue">C2 Proficient</strong> according to the Common European Framework of Reference
-                    (CEFR).
-                    <a href="https://www.efset.org/cert/nsTDnQ"><b>Link to certificate.</b></a>
-                  </p>
-                </div>
-                <div class="col-lg-3"><img src="assets/img/icons/efset-logo_black.png" class="img-fluid" alt=""></div>
-              </div>
-            </div>
-
-            <h3 class="resume-title">Education</h3>
-            <div class="resume-item">
-              <div class="row">
-                <div class="col-lg-9">
-                  <h4>Bachelor of Computer Science</h4>
-                  <h5>2019 - 2022</h5>
-                  <p><em>National Academy of Telecommunications</em></p>
-                  <p>BS Degree in Computer Science. All classes were taught in <strong class="red">English</strong>
-                    only.</p>
-                </div>
-                <div class="col-lg-3"><img src="assets/img/icons/onaz2.png" class="img-fluid" alt=""></div>
-              </div>
-            </div>
-            <div class="resume-item">
-              <div class="row">
-                <div class="col-lg-9">
-                  <h4>Marine Engineering Associate Degree</h4>
-                  <h5>2015 - 2019</h5>
-                  <p><em>Maritime College of Technical Fleet</em></p>
-                  <p>Associate degree in Marine Engineering. Something I'm really proud of.</p>
-                </div>
-                <div class="col-lg-3"><img src="assets/img/icons/maritimecollege.svg" class="img-fluid" alt=""></div>
-              </div>
-            </div>
-            <div style="text-align: center; ">
-              <div class="col-lg-3" data-iframe-width="250" data-iframe-height="270"
-              data-share-badge-id="5652425b-c8af-4841-960c-7ed6ce3aa9fb"
-              data-share-badge-host="https://www.credly.com"></div>
-            <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-            </div>
-                 
-
-
-          </div>
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
             <h3 class="resume-title">Professional Experience</h3>
-            <div class="resume-item">
-              <div class="row">
-                <div class="col-lg-9">
-                  <h4>Software Engineer III</h4>
-                  <h5>July 2022 - Present</h5>
-                  <p><em>Meta</em></p>
-                  <ul>
-                    <li>-- NDA --</li>
-                    <li>-- NDA --</li>
-                    <li>-- NDA --</li>
-                  </ul>
-                </div>
-                <div class="col-lg-3"><img src="assets/img/icons/meta.png" class="img-fluid" alt=""></div>
-              </div>
+            <div id="professional-experience"><div class="resume-item company-item">
+              <h4>Krafton (inZOI Studio)</h4>
             </div>
-            <div class="resume-item">
-              <div class="row">
-                <div class="col-lg-9">
-                  <h4>Senior Unity Developer</h4>
-                  <h5>8 months</h5>
-                  <p><em>IKEA</em></p>
-                  <ul>
-                    <li>Adopted an atypical AR legacy project and rebuilt it from scratch to a top shape, accelerated and optimized solution to work x10 times faster while delivering the result in the shortest time to more than 1 million people around the globe.</li>
-                    <li>Analyzed and Researched 3d real-time areas and prototyped a pipeline for significant size and quality improvement.</li>
-                    <li>Standardized and optimized some of the development workflows.</li>
-                  </ul>
-                </div>
-                <div class="col-lg-3"><img src="assets/img/icons/Ikea-logo.png" class="img-fluid" alt=""></div>
-              </div>
+<div class="resume-item company-item">
+              <h4>Oz Intermedia</h4>
             </div>
-            <div class="resume-item">
-              <div class="row">
-                <div class="col-lg-9">
-                  <h4>Unity Developer</h4>
-                  <h5>5 months</h5>
-                  <p><em>Red Rift, Inc</em></p>
-                  <ul>
-                    <li>Built and designed reusable and scalable solutions using ASP.NET and SQL database for backend of mid-core projects.</li>
-                    <li>Maintained and improved legacy code on live projects.</li>
-                    <li>Established and coordinated efficient QA workflow.</li>
-                  </ul>
-                </div>
-                <div class="col-lg-3"><img src="assets/img/icons/redRift.png" class="img-fluid" alt=""></div>
-              </div>
+<div class="resume-item company-item">
+              <h4>Neorock</h4>
             </div>
-            <div class="resume-item">
-              <div class="row">
-                <div class="col-lg-9">
-                  <h4>Unity Developer</h4>
-                  <h5>1 year</h5>
-                  <p><em>Arrible</em></p>
-                  <ul>
-                    <li>Designed and developed efficient architecture leading to scalability of the project resulting in more than 50,000 downloads on mobile platforms.</li>
-                    <li>Formed and devised training courses for junior developers.</li>
-                    <li>Worked on full cycle development from start to release delivering in tight scheduling.</li>
-                    <li>Designed and managed game design decisions that led to the improvement of user retention rates.</li>
-                    <li>Conducted technical interviews.</li>
-                  </ul>
-                </div>
-                <div class="col-lg-3"><img src="assets/img/icons/arriblecompany.png" class="img-fluid" alt=""></div>
-              </div>
+<div class="resume-item company-item">
+              <h4>Dave Studio</h4>
             </div>
-            <div class="resume-item">
-              <div class="row">
-                <div class="col-lg-9">
-                  <h4>Quality Assurance Engineer</h4>
-                  <h5>9 months</h5>
-                  <p><em>Ubisoft</em></p>
-                  <ul>
-                    <li>Developed solutions for automating the testing processes.</li>
-                    <li>Created test cases for advanced testing of in-game features.</li>
-                    <li>Generated efficient workflows for faster bug tracking and issues resolution.</li>
-                    <li>Cross-platform testing including consoles (Xbox, PS4, and PS5), working with dev kits and grey boxes.</li>
-                  </ul>
-                </div>
-                <div class="col-lg-3"><img src="assets/img/icons/ubisoft.png" class="img-fluid" alt=""></div>
-              </div>
+<div class="resume-item company-item">
+              <h4>Neople</h4>
+            </div></div>
+          </div>
+          <div class="col-lg-6" data-aos="fade-up">
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item education-item">
+              <img src="assets/img/jay/korea-open-university.png" class="institution-logo" alt="Korea National Open University logo" loading="lazy">
+              <h4>Korea Open University</h4>
+              <h5>2013.03 - 2025.02</h5>
+              <p>Bachelor's Degree in Computer Science</p>
+              <p class="blue">Graduate</p>
             </div>
-            <div class="resume-item">
-              <div class="row">
-                <div class="col-lg-9">
-                  <h4>Freelance Unity developer</h4>
-                  <h5>1 year</h5>
-                  <p><em></em></p>
-                  <ul>
-                    <li>Engineered and designed custom solutions for various game genres including hyper-casual mobile games, 
-                      platformers, rogue-likes, etc</li>
-                    <li>Consulted on solving different programming and unity related tasks of different complexity.</li>
-                    <li>Released and launched projects on Apple App Store and Google Play Store.</li>
-                  </ul>
-                </div>
-                <div class="col-lg-3"><img src="assets/img/icons/freelance.png" class="img-fluid" alt=""></div>
-              </div>
-            </div>
-
           </div>
         </div>
-
       </div>
-    </section><!-- End Resume Section -->
+    </section>
 
-    <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio section-bg">
+    <section id="facts" class="facts section-bg">
       <div class="container">
-
         <div class="section-title">
-          <h2>/* ------------------------------------- </h2>
-          <h2>Portfolio</h2>
-          <h2>---------------------------------------- */</h2>
-          <p>Overview of my latest games</p>
-        </div>
+          <h2><span aria-hidden="true">/* -------------------------------------</span><br>Awards<br><span aria-hidden="true">---------------------------------------- */</span></h2>
 
+        </div>
+        <div class="row">
+          <div class="col-md-6" data-aos="fade-up">
+            <article class="award-card">
+              <img src="assets/img/jay/korea-open-university.png" class="award-logo" alt="Korea National Open University logo" loading="lazy">
+              <h3 class="yellow">Silver Award</h3><h4>Korea Open University</h4><p>Software Competition</p>
+            </article>
+          </div>
+          <div class="col-md-6" data-aos="fade-up">
+            <article class="award-card">
+              <img src="assets/img/jay/seoul-business-agency.png" class="award-logo" alt="Seoul Business Agency logo" loading="lazy">
+              <h3 class="yellow">Indie Game Fast Track Award</h3><h4>Seoul Business Agency</h4><p>Development cost support and marketing</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+        <div class="section-title">
+          <h2><span aria-hidden="true">/* -------------------------------------</span><br>Portfolio<br><span aria-hidden="true">---------------------------------------- */</span></h2>
+          <p>Game projects, custom engines, and programming lectures.</p>
+        </div>
+        <div class="row" data-aos="fade-up"><div class="col-lg-12 d-flex justify-content-center">
+          <ul id="portfolio-flters" aria-label="Filter portfolio">
+            <li data-filter="*" class="filter-active" tabindex="0" role="button" aria-pressed="true">All</li>
+            <li data-filter=".filter-engine" tabindex="0" role="button" aria-pressed="false">Custom Game Engine</li>
+            <li data-filter=".filter-unity" tabindex="0" role="button" aria-pressed="false">Unity</li>
+            <li data-filter=".filter-lecture" tabindex="0" role="button" aria-pressed="false">Lecture</li>
+          </ul>
+        </div></div>
+        <div class="row portfolio-container" data-aos="fade-up"><article class="col-lg-4 col-md-6 portfolio-item filter-engine">
+              <div class="project-card">
+                <div class="project-icon" aria-hidden="true"><i class="icofont-cube"></i></div>
+                <span class="project-category">Custom Game Engine</span>
+                <h3>YamYamEngine</h3>
+                <div class="project-actions"><a href="https://github.com/eazuooz/YamYam_Engine" target="_blank" rel="noopener noreferrer" class="project-link"><i class="bx bxl-github" aria-hidden="true"></i> GitHub</a><a href="https://youtube.com/playlist?list=PLWKwcHKTXy5T5v_qSsvUnjFZG85pDOZPq&amp;feature=shared" target="_blank" rel="noopener noreferrer" class="project-link"><i class="icofont-youtube-play" aria-hidden="true"></i> Playlist</a></div>
+              </div>
+            </article><article class="col-lg-4 col-md-6 portfolio-item filter-lecture">
+              <div class="project-card">
+                <div class="project-icon" aria-hidden="true"><i class="bx bx-book-open"></i></div>
+                <span class="project-category">Lecture</span>
+                <h3>C++ for Beginner</h3>
+                <div class="project-actions"><a href="https://inf.run/1MYhB" target="_blank" rel="noopener noreferrer" class="project-link"><i class="icofont-external-link" aria-hidden="true"></i> Course</a><a href="https://youtube.com/playlist?list=PLWKwcHKTXy5RSvmpWyWAG9kWMEqI2AYjn&amp;feature=shared" target="_blank" rel="noopener noreferrer" class="project-link"><i class="icofont-youtube-play" aria-hidden="true"></i> Playlist</a></div>
+              </div>
+            </article><article class="col-lg-4 col-md-6 portfolio-item filter-unity">
+              <div class="project-card">
+                <div class="project-icon" aria-hidden="true"><i class="icofont-game-controller"></i></div>
+                <span class="project-category">Unity</span>
+                <h3>Luna_FD</h3>
+                <div class="project-actions"><a href="https://github.com/eazuooz/luna_fd" target="_blank" rel="noopener noreferrer" class="project-link"><i class="bx bxl-github" aria-hidden="true"></i> GitHub</a><a href="https://youtu.be/8lP2S5Z1PkA?feature=shared" target="_blank" rel="noopener noreferrer" class="project-link"><i class="icofont-youtube-play" aria-hidden="true"></i> Video</a></div>
+              </div>
+            </article><article class="col-lg-4 col-md-6 portfolio-item filter-engine">
+              <div class="project-card">
+                <div class="project-icon" aria-hidden="true"><i class="icofont-cube"></i></div>
+                <span class="project-category">Custom Game Engine</span>
+                <h3>Autochess (Clone coding)</h3>
+                <div class="project-actions"><a href="https://github.com/eazuooz/DirectX_3D_Portfolio" target="_blank" rel="noopener noreferrer" class="project-link"><i class="bx bxl-github" aria-hidden="true"></i> GitHub</a><a href="https://youtu.be/m6Gt65MriYw?feature=shared" target="_blank" rel="noopener noreferrer" class="project-link"><i class="icofont-youtube-play" aria-hidden="true"></i> Video</a></div>
+              </div>
+            </article><article class="col-lg-4 col-md-6 portfolio-item filter-engine">
+              <div class="project-card">
+                <div class="project-icon" aria-hidden="true"><i class="icofont-cube"></i></div>
+                <span class="project-category">Custom Game Engine</span>
+                <h3>Insaniaquarium (Clone coding)</h3>
+                <div class="project-actions"><a href="https://github.com/eazuooz/Direct2D_Portfolio" target="_blank" rel="noopener noreferrer" class="project-link"><i class="bx bxl-github" aria-hidden="true"></i> GitHub</a><a href="https://youtu.be/9pA_mgLUzec?feature=shared" target="_blank" rel="noopener noreferrer" class="project-link"><i class="icofont-youtube-play" aria-hidden="true"></i> Video</a></div>
+              </div>
+            </article><article class="col-lg-4 col-md-6 portfolio-item filter-engine">
+              <div class="project-card">
+                <div class="project-icon" aria-hidden="true"><i class="icofont-cube"></i></div>
+                <span class="project-category">Custom Game Engine</span>
+                <h3>MegamanX6 (Clone coding)</h3>
+                <div class="project-actions"><a href="https://github.com/eazuooz/DirectX_3D_Portfolio" target="_blank" rel="noopener noreferrer" class="project-link"><i class="bx bxl-github" aria-hidden="true"></i> GitHub</a><a href="https://youtu.be/bxvlhTq5BZI?feature=shared" target="_blank" rel="noopener noreferrer" class="project-link"><i class="icofont-youtube-play" aria-hidden="true"></i> Video</a></div>
+              </div>
+            </article><article class="col-lg-4 col-md-6 portfolio-item filter-lecture">
+              <div class="project-card">
+                <div class="project-icon" aria-hidden="true"><i class="bx bx-book-open"></i></div>
+                <span class="project-category">Lecture</span>
+                <h3>C++ Basic Data structure &amp; algorithms</h3>
+                <div class="project-actions"><a href="https://inf.run/DY2Qf" target="_blank" rel="noopener noreferrer" class="project-link"><i class="icofont-external-link" aria-hidden="true"></i> Course</a><a href="https://youtube.com/playlist?list=PLWKwcHKTXy5QXZEw5dJ6ubggsBhLtTsBa&amp;feature=shared" target="_blank" rel="noopener noreferrer" class="project-link"><i class="icofont-youtube-play" aria-hidden="true"></i> Playlist</a></div>
+              </div>
+            </article><article class="col-lg-4 col-md-6 portfolio-item filter-lecture">
+              <div class="project-card">
+                <div class="project-icon" aria-hidden="true"><i class="bx bx-book-open"></i></div>
+                <span class="project-category">Lecture</span>
+                <h3>C++ Advanced algorithms</h3>
+                <div class="project-actions"><a href="https://inf.run/xhkLF" target="_blank" rel="noopener noreferrer" class="project-link"><i class="icofont-external-link" aria-hidden="true"></i> Course</a></div>
+              </div>
+            </article><article class="col-lg-4 col-md-6 portfolio-item filter-lecture">
+              <div class="project-card">
+                <div class="project-icon" aria-hidden="true"><i class="bx bx-book-open"></i></div>
+                <span class="project-category">Lecture</span>
+                <h3>Creating a custom engine using C++ (Unity Engine clone coding)</h3>
+                <div class="project-actions"><a href="https://inf.run/556fP" target="_blank" rel="noopener noreferrer" class="project-link"><i class="icofont-external-link" aria-hidden="true"></i> Course</a><a href="https://youtube.com/playlist?list=PLWKwcHKTXy5RSkINElI7wZOwn9z4RcJff&amp;feature=shared" target="_blank" rel="noopener noreferrer" class="project-link"><i class="icofont-youtube-play" aria-hidden="true"></i> Playlist</a></div>
+              </div>
+            </article><article class="col-lg-4 col-md-6 portfolio-item filter-lecture">
+              <div class="project-card">
+                <div class="project-icon" aria-hidden="true"><i class="bx bx-book-open"></i></div>
+                <span class="project-category">Lecture</span>
+                <h3>Mathematics for Game Development (PART 1)</h3>
+                <div class="project-actions"><a href="https://inf.run/TGQWG" target="_blank" rel="noopener noreferrer" class="project-link"><i class="icofont-external-link" aria-hidden="true"></i> Course</a><a href="https://youtube.com/playlist?list=PLWKwcHKTXy5RK3F26-HPTtbSXEnMguTFs&amp;feature=shared" target="_blank" rel="noopener noreferrer" class="project-link"><i class="icofont-youtube-play" aria-hidden="true"></i> Playlist</a></div>
+              </div>
+            </article><article class="col-lg-4 col-md-6 portfolio-item filter-lecture">
+              <div class="project-card">
+                <div class="project-icon" aria-hidden="true"><i class="bx bx-book-open"></i></div>
+                <span class="project-category">Lecture</span>
+                <h3>Creating a 2D Game Engine Using DirectX11 and ImGui (PART 1)</h3>
+                <div class="project-actions"><a href="https://inf.run/F6j3t" target="_blank" rel="noopener noreferrer" class="project-link"><i class="icofont-external-link" aria-hidden="true"></i> Course</a><a href="https://youtube.com/playlist?list=PLWKwcHKTXy5T5v_qSsvUnjFZG85pDOZPq&amp;feature=shared" target="_blank" rel="noopener noreferrer" class="project-link"><i class="icofont-youtube-play" aria-hidden="true"></i> Playlist</a></div>
+              </div>
+            </article><article class="col-lg-4 col-md-6 portfolio-item filter-lecture">
+              <div class="project-card">
+                <div class="project-icon" aria-hidden="true"><i class="bx bx-book-open"></i></div>
+                <span class="project-category">Lecture</span>
+                <h3>Game Programmer Job Secrets (Large Company Actual Interview Collection)</h3>
+                <div class="project-actions"><a href="https://inf.run/ojunf" target="_blank" rel="noopener noreferrer" class="project-link"><i class="icofont-external-link" aria-hidden="true"></i> Course</a></div>
+              </div>
+            </article></div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact section-bg">
+      <div class="container">
+        <div class="section-title">
+          <h2><span aria-hidden="true">/* -------------------------------------</span><br>Contact me<br><span aria-hidden="true">---------------------------------------- */</span></h2>
+          <p>Please feel free to reach out for work related opportunities.</p>
+        </div>
         <div class="row" data-aos="fade-up">
-          <div class="col-lg-12 d-flex justify-content-center">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-hyper">Hyper-Casual</li>
-              <li data-filter=".filter-retro">Retro</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="portfolio-container" data-aos="fade-up" data-aos-delay="100">
-
-          <div class="row">
-            <div class="col-lg-4 col-md-6 portfolio-item filter-hyper">
-              <div class="portfolio-wrap">
-                <div class="portfolio-links">
-                  <a href="/assets/img/portfolio/nda.webp" data-gall="portfolioGallery" class="venobox"
-                    title="NDA"><i class='bx bx-search-alt'></i></a>
-                      </div>
-                <img src="/assets/img/portfolio/nda.webp" class="img-fluid mobile-gif" alt="">
-                <video width="340" poster="/assets/img/portfolio/nda.webp" preload="auto" autoplay loop
-                  src="/assets/gifs/nda.webp" class="img-fluid gif" alt="">
-  
-              </div>
-              <div class="portfolio-description">
-                <h3><strong class="blue">NDA</strong></h3>
-                <h5>R&D 3D</h5>
-                <p>
-                  Analyzed and Researched 3d real-time areas and prototyped a pipeline for significant size and quality improvement.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="row">
-          <div class="col-lg-4 col-md-6 portfolio-item filter-hyper">
-            <div class="portfolio-wrap">
-              <div class="portfolio-links">
-                <a href="/assets/img/portfolio/nda.webp" data-gall="portfolioGallery" class="venobox"
-                  title="NDA"><i class='bx bx-search-alt'></i></a>
-                    </div>
-              <img src="/assets/img/portfolio/nda.webp" class="img-fluid mobile-gif" alt="">
-              <video width="340" poster="/assets/img/portfolio/nda.webp" preload="auto" autoplay loop
-                src="/assets/gifs/nda.webp" class="img-fluid gif" alt="">
-
-            </div>
-            <div class="portfolio-description">
-              <h3><strong class="blue">NDA</strong></h3>
-              <h5>R&D AR Project</h5>
-              <p>
-                Worked as a <strong class="violet">Lead Developer</strong> and <strong class="blue">architect</strong>. Adopted an atypical AR legacy project and rebuilt it from scratch to a top shape, 
-                accelerated and optimized solution to work x10 times faster while delivering the result in the 
-                shortest time to more than 1 million people around the globe.
-              </p>
-            </div>
-          </div>
-        </div>
-
-          <div class="row">
-    
-            <div class="col-lg-4 col-md-6 portfolio-item filter-hyper">
-              <div class="portfolio-wrap">
-                <div class="portfolio-links">
-                  <a href="/assets/img/portfolio/puzzleRoyal.jpeg" data-gall="portfolioGallery" class="venobox"
-                    title="Puzzle Royal"><i class='bx bx-search-alt'></i></a>
-                  <a href="https://puzzleroyale.io/"
-                    target="_blank" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-                <img src="/assets/img/portfolio/puzzleRoyal.jpeg" class="img-fluid mobile-gif" alt="">
-                <video width="340" poster="/assets/img/portfolio/puzzleRoyal.jpeg" preload="auto" autoplay loop
-                  src="" class="img-fluid gif" alt="">
-
-              </div>
-              <div class="portfolio-description">
-                <h3>Puzzle Royal</h3>
-                <h5>NFT Match3</h5>
-                <p>
-                  Worked as a <strong class="violet">Lead Developer</strong> and <strong class="blue">architect</strong>. In this Match 3 game, you'll earn rewards to summon new heroes in your fight to claim the throne.Prove your might on the battlefield by putting together the most strategic teams and making the best matching decisions possible!
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="row">
-    
-            <div class="col-lg-4 col-md-6 portfolio-item filter-hyper">
-              <div class="portfolio-wrap">
-                <div class="portfolio-links">
-                  <a href="/assets/img/portfolio/ChillCity.png" data-gall="portfolioGallery" class="venobox"
-                    title="Berserk"><i class='bx bx-search-alt'></i></a>
-                  <a href="https://JayLee.itch.io/chill-city"
-                    target="_blank" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-                <img src="/assets/img/portfolio/ChillCity.png" class="img-fluid mobile-gif" alt="">
-                <video width="340" poster="/assets/img/portfolio/ChillCity.png" preload="auto" autoplay loop
-                  src="https://youtu.be/RpgX9UA72Qw" class="img-fluid gif" alt="">
-
-              </div>
-              <div class="portfolio-description">
-                <h3>Chill city</h3>
-                <h5>3d Idle clicker</h5>
-                <p>
-                  Worked as a <strong class="red">Sole Developer</strong>. Idle game that helps you relax and build your chill city. Keep balance between resources to progress and build beautiful minimalistic city.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="row">
-    
-            <div class="col-lg-4 col-md-6 portfolio-item filter-hyper">
-              <div class="portfolio-wrap">
-                <div class="portfolio-links">
-                  <a href="/assets/img/portfolio/breakpoint.jpeg" data-gall="portfolioGallery" class="venobox"
-                    title="Ghost Recon Breakpoint"><i class='bx bx-search-alt'></i></a>
-                  <a href="https://www.ubisoft.com/en-ca/game/ghost-recon/breakpoint"
-                    target="_blank" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-                <img src="/assets/img/portfolio/breakpoint.jpeg" class="img-fluid mobile-gif" alt="">
-                <video width="340" poster="/assets/img/portfolio/breakpoint.jpeg" preload="auto" autoplay loop
-                  src="" class="img-fluid gif" alt="">
-
-              </div>
-              <div class="portfolio-description">
-                <h3>Ghost Recon Breakpoint</h3>
-                <h5>Online tactical shooter </h5>
-                <p>
-                  Tom Clancy's Ghost Recon Breakpoint is an online-only tactical shooter video game.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="row">
-    
-            <div class="col-lg-4 col-md-6 portfolio-item filter-hyper">
-              <div class="portfolio-wrap">
-                <div class="portfolio-links">
-                  <a href="/assets/img/portfolio/hyperscape.jpeg" data-gall="portfolioGallery" class="venobox"
-                    title="Hyperscape"><i class='bx bx-search-alt'></i></a>
-                  <a href="https://youtu.be/w5zZb5Cfcq8"
-                    target="_blank" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-                <img src="/assets/img/portfolio/hyperscape.jpeg" class="img-fluid mobile-gif" alt="">
-                <video width="340" poster="/assets/img/portfolio/hyperscape.jpeg" preload="auto" autoplay loop
-                  src="" class="img-fluid gif" alt="">
-
-              </div>
-              <div class="portfolio-description">
-                <h3>Hyperscape</h3>
-                <h5>First-person shooter battle royale </h5>
-                <p>
-                  The game's main mode shares elements with other battle royale games, where up to 100 players are dropped on to a map that slowly shrinks over time with players seeking to eliminate the competition.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="row">
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-hyper">
-              <div class="portfolio-wrap">
-                <div class="portfolio-links">
-                  <a href="/assets/img/portfolio/BerserkVulcan.webp" data-gall="portfolioGallery" class="venobox"
-                    title="Berserk"><i class='bx bx-search-alt'></i></a>
-                  <a href="https://appadvice.com/app/berserk-ccg-tcg-game/1566367597image.png"
-                    target="_blank" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-                <img src="/assets/img/portfolio/BerserkVulcan.webp" class="img-fluid mobile-gif" alt="">
-                <video width="340" poster="/assets/img/portfolio/BerserkVulcan.webp" preload="auto" autoplay loop
-                  src="https://youtu.be/RpgX9UA72Qw" class="img-fluid gif" alt="">
-
-              </div>
-              <div class="portfolio-description">
-                <h3>Berserk</h3>
-                <h5>Collectible card game</h5>
-                <p>
-                  Big game project that has NFT etc.
-                </p>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-hyper">
-              <div class="portfolio-wrap">
-                <div class="portfolio-links">
-                  <a href="/assets/img/portfolio/contrary.webp" data-gall="portfolioGallery" class="venobox"
-                    title="Afterlife"><i class='bx bx-search-alt'></i></a>
-                  <a href="https://play.google.com/store/apps/details?id=com.Moonee.Matchmania3d&hl=en&gl=US"
-                    target="_blank" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-                <img src="/assets/img/portfolio/contrary.webp" class="img-fluid mobile-gif" alt="">
-                <video width="340" poster="/assets/img/portfolio/contrary.webp" preload="auto" autoplay loop
-                  src="/assets/img/portfolio/contrary.webp" class="img-fluid gif" alt="">
-
-              </div>
-              <div class="portfolio-description">
-                <h3>Contrary</h3>
-                <h5>2D adventure platformer</h5>
-                <p>
-                  Adventure game where you have to fight common psychological issues and their personifications.
-                  Made on <strong class="orange">Ludum Dare 49.</strong>
-                  Organized and developed along a team of <strong class="red">7 people</strong>.
-                </p>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-hyper">
-              <div class="portfolio-wrap">
-                <div class="portfolio-links">
-                  <a href="/assets/img/portfolio/nda.webp" data-gall="portfolioGallery" class="venobox"
-                    title="Afterlife"><i class='bx bx-search-alt'></i></a>
-                </div>
-                <img src="/assets/img/portfolio/nda.webp" class="img-fluid mobile-gif" alt="">
-                <video width="340" poster="/assets/img/portfolio/nda.webp" preload="auto" autoplay loop
-                  src="/assets/gifs/nda.webp" class="img-fluid gif" alt="">
-
-              </div>
-              <div class="portfolio-description">
-                <h3><strong class="blue">NDA</strong></h3>
-                <h5>2D Fighter</h5>
-                <p>
-                  <strong class="violet">Mid-core</strong> mobile fighter on which I've worked and delivered the project
-                  till release
-                  on mobile platforms (<strong class="green">Android</strong>, <strong class="blue">iOS</strong>).
-                  It included working with Spine, remote configs and custom server logic.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="row">
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-hyper">
-              <div class="portfolio-wrap">
-                <div class="portfolio-links">
-                  <a href="/assets/img/portfolio/matchmania3d.webp" data-gall="portfolioGallery" class="venobox"
-                    title="Afterlife"><i class='bx bx-search-alt'></i></a>
-                  <a href="https://play.google.com/store/apps/details?id=com.Moonee.Matchmania3d&hl=en&gl=US"
-                    target="_blank" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-                <img src="/assets/img/portfolio/matchmania3d.webp" class="img-fluid mobile-gif" alt="">
-                <video width="340" poster="/assets/img/portfolio/matchmania3d.webp" preload="auto" autoplay loop
-                  src="/assets/gifs/matchmania3d.webp" class="img-fluid gif" alt="">
-
-              </div>
-              <div class="portfolio-description">
-                <h3>Matchmania 3D </h3>
-                <h5>3D Hyper-Casual</h5>
-                <p>
-                  Fun matching 3D puzzle game with more than <strong class="violet">50,000+</strong> installs on
-                  <strong class="green">Play Market</strong> and even more on <strong class="blue"> iOS</strong> app
-                  store.
-                </p>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item">
-              <div class="portfolio-wrap">
-                <div class="portfolio-links">
-                  <a href="/assets/img/portfolio/afterlife.webp" data-gall="portfolioGallery" class="venobox"
-                    title="Afterlife"><i class='bx bx-search-alt'></i></a>
-                  <a href="https://ldjam.com/events/ludum-dare/48/afterlife" target="_blank" title="More Details"><i
-                      class="bx bx-link"></i></a>
-                </div>
-                <img src="/assets/img/portfolio/afterlife.webp" class="img-fluid mobile-gif" alt="">
-                <video width="340" poster="/assets/img/portfolio/afterlife.webp" preload="auto" autoplay loop
-                  src="/assets/gifs/afterlife.webm" class="img-fluid gif" alt="">
-
-              </div>
-              <div class="portfolio-description">
-                <h3>Afterlife </h3>
-                <h5>Roguelike</h5>
-                <p>
-                  Roguelike vertically scrolling shooter that was developer in <strong class="green">72 hours</strong>
-                  for
-                  <strong class="orange">Ludum Dare 48</strong>.
-                  Organized and developed along with a team of <strong class="red">9 people</strong> including artists,
-                  game designers, musicians, and programmers.
-                </p>
-              </div>
-            </div>
-
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-hyper">
-              <div class="portfolio-wrap">
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/BlockPuzzleGameplay.webp" data-gall="portfolioGallery" class="venobox"
-                    title="Block puzzle Saga"><i class='bx bx-search-alt'></i></a>
-                  <a href="https://apps.apple.com/us/app/block-puzzle-hidden-pic/id1557202867" target="_blank"
-                    title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-                <img src="assets/img/portfolio/BlockPuzzleAppstore.webp" class="img-fluid mobile-gif" alt="">
-                <video width="340" poster="assets/img/portfolio/BlockPuzzleAppstore.webp" preload="auto" autoplay loop
-                  src="/assets/img/portfolio/BlockPuzzleGameplay.webp" class="img-fluid gif" alt="">
-
-              </div>
-              <div class="portfolio-description">
-                <h3>Block Puzzle Saga </h3>
-                <h5>Hyper-Casual</h5>
-                <p>
-                  Combination of two classic
-                  gameplays: Sudoku and Block Puzzle. Solve the puzzle to reveal the pic.
-                  I've worked as <strong class="violet">single developer</strong>. Managed to deliver the game in
-                  <strong class="red">6 weeks</strong>. Released on both <strong class="green">Android</strong> and
-                  <strong class="blue">iOS</strong>.
-                </p>
-              </div>
-            </div>
-
-          </div>
-
-          <div class="row">
-            <div class="col-lg-4 col-md-6 portfolio-item">
-              <div class="portfolio-wrap">
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/lok_rebirth.webp" data-gall="portfolioGallery" class="venobox"
-                    title="LOK:Rebirth"><i class='bx bx-search-alt'></i></a>
-                  <a href="https://www.patreon.com/kuja" target="_blank" title="More Details"><i
-                      class="bx bx-link"></i></a>
-                </div>
-                <img src="assets/img/portfolio/lok_rebirth.webp" class="img-fluid mobile-gif" alt="">
-                <video width="340" poster="assets/img/portfolio/lok_rebirth.webp" preload="auto" autoplay loop
-                  src="/assets/img/portfolio/lok_rebirth.webp" class="img-fluid gif" alt="">
-
-              </div>
-              <div class="portfolio-description">
-                <h3>LOK:Rebirth </h3>
-                <h5>2D Adult action</h5>
-                <p>
-                  High quality adult game in which you play as a young female lieutenant, fighter pilot of the
-                  Federation.
-                  This is an <strong class="red">adult 18+</strong> game. I've worked there as a <strong
-                    class="violet">technical artist</strong>.
-                </p>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item">
-              <div class="portfolio-wrap">
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/znayNashihScreenshot.webp" data-gall="portfolioGallery" class="venobox"
-                    title="Znay Nashih"><i class='bx bx-search-alt'></i></a>
-                  <a href="https://play.google.com/store/apps/details?id=com.Andersen.KnowOur" target="_blank"
-                    title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-                <img src="assets/img/portfolio/znayNashih.webp" class="img-fluid mobile-gif" alt="">
-                <video width="340" poster="assets/img/portfolio/znayNashih.webp" preload="auto" autoplay loop
-                  src="/assets/img/portfolio/znayNashih.webp" class="img-fluid gif" alt="">
-
-              </div>
-              <div class="portfolio-description">
-                <h3>Znay Nashih</h3>
-                <h5>Educational</h5>
-                <p>Educational project oriented on kids about great Ukrainian historical figures.
-                  Was doing both developing and game design work for the game.
-                  Released on both <strong class="green">Android</strong> and <strong class="blue">iOS</strong>.
-                </p>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item">
-              <div class="portfolio-wrap">
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/TheWhiteTrail.webp" data-gall="portfolioGallery" class="venobox"
-                    title="The white trail"><i class='bx bx-search-alt'></i></a>
-                  <a href="https://globalgamejam.org/2021/games/white-trail-4" target="_blank" title="More Details"><i
-                      class="bx bx-link"></i></a>
-                </div>
-                <img src="assets/img/portfolio/TheWhiteTrail.webp" class="img-fluid mobile-gif" alt="">
-                <video width="340" poster="assets/img/portfolio/TheWhiteTrail.webp" preload="auto" autoplay loop
-                  src="/assets/img/portfolio/TheWhiteTrail.webp" class="img-fluid gif" alt="">
-
-              </div>
-              <div class="portfolio-description">
-                <h3>The white trail</h3>
-                <h5>2D point and click detective</h5>
-                <p>Point and click game in noir style that was developed in <strong class="green">48 hours</strong>,
-                  and took <strong class="red">8th place</strong> in <strong class="orange">Global Game Jam</strong>
-                  2021 Ukraine.
-                  Organized and managed a team of <strong class="red">11 people</strong>.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-lg-4 col-md-6 portfolio-item">
-              <div class="portfolio-wrap">
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/deathdaythumbnail.webp" data-gall="portfolioGallery" class="venobox"
-                    title="Death day"><i class='bx bx-search-alt'></i></a>
-                  <a href="https://ldjam.com/events/ludum-dare/47/death-day" target="_blank" title="More Details"><i
-                      class="bx bx-link"></i></a>
-                </div>
-                <img src="assets/img/portfolio/deathdaythumbnail.webp" class="img-fluid mobile-gif" alt="">
-                <video width="340" poster="assets/img/portfolio/deathdaythumbnail.webp" preload="auto" autoplay loop
-                  src="/assets/gifs/deathday.webm" class="img-fluid gif" alt="">
-
-              </div>
-              <div class="portfolio-description">
-                <h3>Death day</h3>
-                <h5>2D Action & Puzzle</h5>
-                <p>This game was developed for <strong class="orange">Ludum Dare 47</strong> in <strong class="green">72
-                    hours</strong>, theme was Stuck in a loop.
-                  A monster will kill you at the end of the day. Come up with the solution how to stop him to break free
-                  from a death loop.
-                </p>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item">
-              <div class="portfolio-wrap">
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/keepchopping.webp" data-gall="portfolioGallery" class="venobox"
-                    title="Keep Chopping"><i class='bx bx-search-alt'></i></a>
-                  <!--<a href="#" target="_blank" title="More Details"><i class="bx bx-link"></i></a> -->
-                </div>
-                <img src="assets/img/portfolio/keepchopping.webp" class="img-fluid mobile-gif" alt="">
-                <video width="340" poster="assets/img/portfolio/keepchopping.webp" preload="auto" autoplay loop
-                  src="assets/gifs/keepchopping.webm" class="img-fluid gif" alt="">
-
-              </div>
-              <div class="portfolio-description">
-                <h3>Keep Chopping</h3>
-                <h5>3D Local-Multiplayer Party game</h5>
-                <p>This game was developed for <strong class="orange">Ubisoft GameJam</strong> in <strong
-                    class="green">48 hours</strong> and is a party
-                  game for 2-4 players that compete
-                  by planting and chopping each other trees!
-                </p>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item">
-              <div class="portfolio-wrap">
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/unnamed.webp" data-gall="portfolioGallery" class="venobox"
-                    title="Unnamed Project"><i class='bx bx-search-alt'></i></a>
-                  <!--<a href="#" target="_blank" title="More Details"><i class="bx bx-link"></i></a> -->
-                </div>
-                <img src="assets/img/portfolio/unnamed.webp" class="img-fluid mobile-gif" alt="">
-                <video width="340" poster="assets/img/portfolio/unnamed.webp" preload="auto" autoplay loop
-                  src="assets/gifs/unnamed.webm" class="img-fluid gif" alt="">
-
-              </div>
-              <div class="portfolio-description">
-                <h3>Undead vengeance</h3>
-                <h5>2D real time tactics</h5>
-                <p>This game is still under development. Build a <strong class="blue">necropolis</strong> and attack
-                  humans to gain more territory and build up an army of undead!</p>
-              </div>
-            </div>
-          </div>
-
-
-          <div class="row">
-
-            <div class="col-lg-4 col-md-6 portfolio-item">
-              <div class="portfolio-wrap">
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/horror_house.webp" data-gall="portfolioGallery" class="venobox"
-                    title="Time Hero"><i class='bx bx-search-alt'></i></a>
-                </div>
-                <img src="assets/img/portfolio/horror_house.webp" class="img-fluid mobile-gif" alt="">
-                <video width="340" poster="assets/img/portfolio/horror_house.webp" preload="auto" autoplay loop
-                  src="assets/gifs/horror_house.webp" class="img-fluid gif" alt="">
-              </div>
-              <div class="portfolio-description">
-                <h3>Horror House</h3>
-                <h5>3D First-person horror game</h5>
-                <p>This is one of my first games. It's more of a playable demo of the game that
-                  consist of 9 rooms appartment in abandoned mention.</p>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-hyper">
-              <div class="portfolio-wrap">
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/match3.webp" data-gall="portfolioGallery" class="venobox"
-                    title="CS50 Match3"><i class='bx bx-search-alt'></i></a>
-                  <a href="https://youtu.be/hVx61I7T4FY" target="_blank" title="More Details"><i
-                      class="bx bx-link"></i></a>
-                </div>
-                <img src="assets/img/portfolio/match3.webp" class="img-fluid mobile-gif" alt="">
-                <video width="340" poster="assets/img/portfolio/match3.webp" preload="auto" autoplay loop
-                  src="assets/gifs/Match3_for_CS50G_by_nekopi.webm" class="img-fluid gif" alt="">
-              </div>
-              <div class="portfolio-description">
-                <h3>CS50 Match3</h3>
-                <h5>Match3</h5>
-                <p>Usual match3 game. Nothing to see here.</p>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-retro">
-              <div class="portfolio-wrap">
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/mario.webp" data-gall="portfolioGallery" class="venobox"
-                    title="CS50 Mario"><i class='bx bx-search-alt'></i></a>
-                  <a href="https://youtu.be/XlPFTgWi9_w" target="_blank" title="More Details"><i
-                      class="bx bx-link"></i></a>
-                </div>
-                <img src="assets/img/portfolio/mario.webp" class="img-fluid mobile-gif" alt="">
-                <video width="340" poster="assets/img/portfolio/mario.webp" preload="auto" autoplay loop
-                  src="assets/gifs/Mario_for_CS50G_by_nekopi.webm" class="img-fluid gif" alt="">
-              </div>
-              <div class="portfolio-description">
-                <h3>CS50 Mario</h3>
-                <h5>Retro</h5>
-                <p>Another Super Mario Bros rip-off with infinite map <strong class="violet">procedural
-                    generation</strong> this time!</p>
-              </div>
-            </div>
-
-            <div class="row">
-
-              <div class="col-lg-4 col-md-6 portfolio-item filter-retro">
-                <div class="portfolio-wrap">
-                  <div class="portfolio-links">
-                    <a href="assets/img/portfolio/breakout.webp" data-gall="portfolioGallery" class="venobox"
-                      title="CS50 BreakOut"><i class='bx bx-search-alt'></i></a>
-                    <a href="https://youtu.be/hC1ZFF5R850" target="_blank" title="More Details"><i
-                        class="bx bx-link"></i></a>
-                  </div>
-                  <img src="assets/img/portfolio/breakout.webp" class="img-fluid mobile-gif" alt="">
-                  <video width="340" poster="assets/img/portfolio/breakout.webp" preload="auto" autoplay loop
-                    src="assets/gifs/Breakout_for_CS50G_by_JayLee.webm" class="img-fluid gif" alt="">
-                </div>
-                <div class="portfolio-description">
-                  <h3>CS50 BreakOut</h3>
-                  <h5>Retro</h5>
-                  <p>Good old breakout type game.</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-hyper">
-              <div class="portfolio-wrap">
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/fiftybird.webp" data-gall="portfolioGallery" class="venobox"
-                    title="CS50 Flappy Bird"><i class='bx bx-search-alt'></i></a>
-                  <a href="https://youtu.be/FZCP4oBLilA" target="_blank" title="More Details"><i
-                      class="bx bx-link"></i></a>
-                </div>
-                <img src="assets/img/portfolio/fiftybird.webp" class="img-fluid mobile-gif" alt="">
-                <video width="340" poster="assets/img/portfolio/fiftybird.webp" preload="auto" autoplay loop
-                  src="assets/gifs/fiftybird.webm" class="img-fluid gif" alt="">
-              </div>
-              <div class="portfolio-description">
-                <h3>CS50 Fifty Bird</h3>
-                <h5>Hyper-Casual</h5>
-                <p>Well, flippy bird, classic, I know.</p>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-retro">
-              <div class="portfolio-wrap">
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/pong.webp" data-gall="portfolioGallery" class="venobox"
-                    title="CS50 Pong"><i class='bx bx-search-alt'></i></a>
-                  <a href="https://youtu.be/0JlA0TWpLAw" target="_blank" title="More Details"><i
-                      class="bx bx-link"></i></a>
-                </div>
-                <img src="assets/img/portfolio/pong.webp" class="img-fluid mobile-gif" alt="">
-                <video width="340" poster="assets/img/portfolio/pong.webp" preload="auto" autoplay loop
-                  src="assets/gifs/Pong_Nekopi_edition_-_AI_update_CS50g.webm" class="img-fluid gif" alt="">
-              </div>
-              <div class="portfolio-description">
-                <h3>CS50 Pong</h3>
-                <h5>Retro</h5>
-                <p>One of the first games ever created, how could I not give it a try?</p>
-              </div>
-            </div>
-
-          </div>
-          <div class="row">
-
-            <div class="col-lg-4 col-md-6 portfolio-item">
-              <div class="portfolio-wrap">
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/timehero.webp" data-gall="portfolioGallery" class="venobox"
-                    title="Time Hero"><i class='bx bx-search-alt'></i></a>
-                  <a href="https://fedron.itch.io/time-hero" target="_blank" title="More Details"><i
-                      class="bx bx-link"></i></a>
-                </div>
-                <img src="assets/img/portfolio/timehero.webp" class="img-fluid mobile-gif" alt="">
-                <video width="340" poster="assets/img/portfolio/timehero.webp" preload="auto" autoplay loop
-                  src="assets/gifs/timehero.webm" class="img-fluid gif" alt="">
-              </div>
-              <div class="portfolio-description">
-                <h3>Time Hero</h3>
-                <h5>2D Rogelike Bullet-Hell</h5>
-                <p>This game was made for <strong class="orange">Brackeys 2020.2</strong> GameJam. Procedural
-                  generation,
-                  different guns, time travel, all that.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End Portfolio Section -->
-
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
-      <div class="background-element">
-        <div class="background-element_child">
-          <canvas id="canvas"></canvas>
-        </div>
-      </div>
-      <div class="container">
-
-        <div class="section-title">
-          <h2>/* ------------------------------------- </h2>
-          <h2>Contact me</h2>
-          <h2>---------------------------------------- */</h2>
-          <h5>Please feel free to reach out to me for any work related purposes ;)</h5>
-        </div>
-
-        <div class="row" data-aos="fade-in">
-
-          <div class="col-lg-5 d-flex align-items-stretch">
+          <div class="col-lg-6">
             <div class="info">
-              <div class="address">
-                <i class="icofont-google-map"></i>
-                <h4>Location:</h4>
-                <p>Toronto, Canada</p>
-              </div>
-
-              <div class="email">
-                <i class="icofont-envelope"></i>
-                <h4>Email:</h4>
-                <p>itJayLee@gmail.com</p>
-              </div>
-
-              <div class="phone">
-                <i class="icofont-linkedin"></i>
-                <h4>LinkedIn:</h4>
-                <p><a href="https://www.linkedin.com/in/JayLee/" target="_blank" class="linkedin">Link</a></p>
-              </div>
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d184553.6145839903!2d-79.68984566475966!3d43.71781745727228!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4cb90d7c63ba5%3A0x323555502ab4c477!2sToronto%2C%20ON%2C%20Canada!5e0!3m2!1sen!2sus!4v1668714660521!5m2!1sen!2sus"
-                style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
+              <div class="address"><i class="icofont-google-map" aria-hidden="true"></i><h4>Location</h4><p>Canada</p></div>
+              <div class="email"><i class="icofont-envelope" aria-hidden="true"></i><h4>Email</h4><p><a href="mailto:eazuooz@gmail.com">eazuooz@gmail.com</a></p></div>
+              <div class="phone"><i class="icofont-phone" aria-hidden="true"></i><h4>Phone</h4><p><a href="tel:01031777001">010-3177-7001</a></p></div>
             </div>
-
           </div>
-
-          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form action="https://formspree.io/xbjzedyy" method="post" role="form" class="php-email-form">
-              <div class="form-row">
-                <div class="form-group col-md-6">
-                  <label for="name">Your Name</label>
-                  <input type="text" name="name" class="form-control" id="name" data-rule="minlen:4"
-                    data-msg="Please enter at least 4 chars" />
-                  <div class="validate"></div>
-                </div>
-                <div class="form-group col-md-6">
-                  <label for="name">Your Email</label>
-                  <input type="email" class="form-control" name="email" id="email" data-rule="email"
-                    data-msg="Please enter a valid email" />
-                  <div class="validate"></div>
-                </div>
-              </div>
-              <div class="form-group">
-                <label for="name">Subject</label>
-                <input type="text" class="form-control" name="subject" id="subject" data-rule="minlen:4"
-                  data-msg="Please enter at least 8 chars of subject" />
-                <div class="validate"></div>
-              </div>
-              <div class="form-group">
-                <label for="name">Message</label>
-                <textarea class="form-control" name="message" rows="10" data-rule="required"
-                  data-msg="Please write something for me"></textarea>
-                <div class="validate"></div>
-              </div>
-              <div class="mb-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message alert ">Your message has been sent. Thank you and have a nice day!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
-            </form>
+          <div class="col-lg-6 mt-4 mt-lg-0">
+            <div class="info contact-socials">
+              <h3 class="yellow">Find me online</h3>
+              <ul>
+                <li><a href="https://github.com/eazuooz" target="_blank" rel="noopener noreferrer"><i class="bx bxl-github" aria-hidden="true"></i> @eazuooz</a></li>
+                <li><a href="https://www.linkedin.com/in/jaylee-gamedev" target="_blank" rel="noopener noreferrer"><i class="bx bxl-linkedin" aria-hidden="true"></i> @JayLee</a></li>
+                <li><a href="https://www.youtube.com/@yamyamcoding" target="_blank" rel="noopener noreferrer"><i class="icofont-youtube-play" aria-hidden="true"></i> @YamYamCoding</a></li>
+                <li><a href="https://www.yamyamcoding.com/" target="_blank" rel="noopener noreferrer"><i class="icofont-web" aria-hidden="true"></i> yamyamcoding.com</a></li>
+              </ul>
+              <a class="hero-cta" href="mailto:eazuooz@gmail.com">Send an email <i class="icofont-arrow-right" aria-hidden="true"></i></a>
+            </div>
           </div>
         </div>
-
       </div>
-    </section><!-- End Contact Section -->
+    </section>
+  </main>
 
-  </main><!-- End #main -->
+  <footer id="footer"><div class="container"><div class="credits">
+    Website by <span class="yellow">Jay Lee</span><br>
+    Originally designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+  </div></div></footer>
+  <a href="#hero" class="back-to-top" aria-label="Back to top"><i class="icofont-simple-up" aria-hidden="true"></i></a>
 
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-    <div class="container">
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-
-        Website was made by me: <span class="yellow"> <b>JayLee</b> </span>
-        Originally designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-      </div>
-    </div>
-  </footer><!-- End  Footer -->
-
-  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
-
-  <!-- Vendor JS Files -->
   <script src="assets/vendor/jquery/jquery.min.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
   <script src="assets/vendor/counterup/counterup.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
@@ -1349,14 +354,7 @@
   <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
   <script src="assets/vendor/typed.js/typed.min.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/js/coolBack.js"></script>
-
-  <!-- Template Main JS File -->
   <script src="assets/js/main.min.js"></script>
-
-  <!-- Time counter for days of my work, it's really simple :) -->
-  <script src="assets/js/timecounter.js"></script>
-
+  <script src="assets/js/portfolio.js"></script>
 </body>
-
 </html>

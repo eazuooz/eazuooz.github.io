@@ -1176,3 +1176,69 @@ section {
         padding-right: 20px 15px
     }
 }
+/* Jay Lee portfolio content and responsive layouts. */
+#header { padding-bottom: 90px; }
+#header .profile img { aspect-ratio: 1; object-fit: cover; object-position: center 25%; }
+.profile-title { margin: 10px 0 0; text-align: center; color: #0be8c6; }
+#hero { padding-left: 300px; min-height: 760px; }
+#hero .hero-container { width: min(100% - 64px, 920px); min-width: 0; }
+#hero .hero-code, #hero .hero-heading { font-family: 'Inconsolata', monospace; font-size: clamp(20px, 2.15vw, 32px); line-height: 1.5; }
+#hero .hero-code { margin-bottom: 24px; color: #d5ced9; }
+#hero .hero-heading { margin: 0 0 16px; }
+.code-indent { margin-left: 1.5em; }
+.code-indent-double { margin-left: 3em; }
+.hero-cta { display: inline-flex; align-items: center; gap: 10px; border: 1px solid #a74ded; border-radius: 6px; padding: 12px 18px; color: #d5ced9; font-size: 18px; }
+.hero-cta:hover { color: #fff; background: #7133a3; }
+.section-title h2 { line-height: 1.4; }
+.section-title h2 span { font-family: 'Inconsolata', monospace; font-size: clamp(15px, 2vw, 30px); }
+.section-title p { font-size: 18px; }
+.profile-code { font-size: 19px; line-height: 1.6; margin-bottom: 24px; white-space: pre-wrap; overflow-wrap: anywhere; }
+.profile-code code { padding: 20px; border-radius: 8px; }
+.about .content .about-heading { margin-bottom: 12px; color: #ffda4c; }
+.about .portrait { display: block; max-height: 480px; margin: 24px auto 0; border-radius: 10px; }
+.about-links { font-size: 20px; }
+.skill-group { text-align: center; padding: 20px 15px; }
+.skill-group h3 { color: #0be8c6; font-size: 22px; margin-top: 15px; }
+.skill-group p { font-size: 21px; }
+.resume .company-item { min-height: 78px; padding-top: 2px; }
+.resume .company-item h4 { text-transform: none; font-size: 22px; line-height: 1.5; }
+.institution-logo { width: 72px; height: 72px; object-fit: contain; float: right; margin: 0 0 15px 15px; }
+.education-item p { font-size: 20px; }
+.award-card { padding: 24px; height: 100%; text-align: center; }
+.facts .award-logo { width: 110px; height: 110px; object-fit: contain; margin-bottom: 24px; }
+.award-card h3 { font-size: 26px; }
+.award-card h4 { font-size: 20px; margin: 15px 0; color: #0be8c6; }
+.portfolio #portfolio-flters { display: flex; flex-wrap: wrap; justify-content: center; border-radius: 12px; }
+.project-card { display: flex; flex-direction: column; min-height: 310px; padding: 26px; border: 1px solid #454b5a; border-radius: 10px; background: #292f3d; height: 100%; }
+.project-icon { font-size: 40px; color: #a74ded; margin-bottom: 18px; }
+.project-category { color: #0be8c6; font-size: 17px; }
+.portfolio .project-card h3 { font-size: 24px; line-height: 1.35; padding-top: 12px; margin-bottom: 24px; overflow-wrap: anywhere; }
+.project-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: auto; }
+.project-link { display: inline-flex; align-items: center; gap: 6px; padding: 8px 12px; border-radius: 6px; background: #1d212b; color: #d5ced9; font-size: 16px; }
+.project-link:hover { background: #7133a3; color: #fff; }
+.contact { padding: 60px 0; }
+.contact .info { height: 100%; border-radius: 10px; }
+.contact .info a { color: #ffda4c; overflow-wrap: anywhere; }
+.contact-socials ul { list-style: none; padding: 0; margin: 24px 0; }
+.contact-socials li { margin-bottom: 18px; font-size: 20px; }
+.contact .contact-socials i { float: none; display: inline-block; vertical-align: middle; margin-right: 12px; background: none; color: #a74ded; width: auto; height: auto; font-size: 28px; }
+a:focus-visible, button:focus-visible, [role='button']:focus-visible { outline: 3px solid #0be8c6; outline-offset: 4px; }
+@media (max-width: 1199px) { #hero { padding-left: 0; } }
+@media (max-width: 767px) {
+  #hero { min-height: 620px; height: 100svh; }
+  #hero .hero-container { width: calc(100% - 36px); margin-left: 0; }
+  #hero .hero-code, #hero .hero-heading { font-size: clamp(16px, 4.2vw, 22px); }
+  .profile-code { font-size: 15px; }
+  .profile-code code { padding: 12px; }
+  .resume .institution-logo { max-width: none; }
+  .portfolio #portfolio-flters li { font-size: 12px; padding: 12px 10px; }
+  .project-card { min-height: 260px; }
+  .section-title h2 { font-size: 26px; }
+}
+
+.section-title h2 { color: #a8afbf; }
+.section-title h2 span { color: #788296; }
+#hero p .violet { color: #a74ded; }
+#hero p .yellow { color: #ffda4c; }
+.skills-content .skill-group > i { display: block; float: none; font-size: 46px; text-align: center; color: #d5ced9; }
+.project-icon i { display: inline-block; }

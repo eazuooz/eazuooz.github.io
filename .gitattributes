@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Preserve PDF byte offsets and embedded image data.
+*.pdf binary
