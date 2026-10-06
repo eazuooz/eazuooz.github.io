@@ -26,19 +26,6 @@
     "usage": "External reference imagery for the project topic or original game; not a screenshot of the portfolio author's implementation. Original image bytes are unchanged."
   },
   {
-    "project": "Luna_FD",
-    "file": "fantasy-game-reference.png",
-    "description": "Reference 2D fantasy game art showing a medieval castle, characters, and a side-view environment",
-    "sourcePage": "https://kenney.nl/assets/platformer-pack-medieval",
-    "sourceImage": "https://kenney.nl/media/pages/assets/platformer-pack-medieval/8b7a0413b4-1677696126/sample.png",
-    "credit": "Kenney",
-    "retrievedOn": "2026-10-06",
-    "width": 918,
-    "height": 515,
-    "sha256": "6731e73859e6d1021e3c3b1a635a042b718bd0b4fb06138b2c8f58ac8903419f",
-    "usage": "External reference imagery for the project topic or original game; not a screenshot of the portfolio author's implementation. Original image bytes are unchanged."
-  },
-  {
     "project": "Autochess (Clone coding)",
     "file": "autochess-original.jpg",
     "description": "Original Auto Chess promotional screenshot showing 3D fantasy units fighting on a tactical board",
@@ -49,7 +36,14 @@
     "width": 1920,
     "height": 1080,
     "sha256": "e827795972f21b2a2bf2b03254d156bdab67af57b1c95a78b300b0f2717e5561",
-    "usage": "External reference imagery for the project topic or original game; not a screenshot of the portfolio author's implementation. Original image bytes are unchanged."
+    "usage": "External reference imagery for the project topic or original game; not a screenshot of the portfolio author's implementation. Original image bytes are unchanged.",
+    "displayCrop": {
+      "x": 460,
+      "y": 76,
+      "width": 1385,
+      "height": 620,
+      "method": "CSS viewport; source image bytes unchanged"
+    }
   },
   {
     "project": "Insaniaquarium (Clone coding)",
@@ -79,29 +73,31 @@
   },
   {
     "project": "C++ Basic Data structure & algorithms",
-    "file": "binary-search-tree-reference.png",
-    "description": "Reference binary search tree diagram showing a root, branches, and ordered child nodes",
+    "file": "data-structures-cover.svg",
+    "description": "Data Structures & Algorithms cover with a C++ topic label and a binary search tree diagram",
     "sourcePage": "https://iq.opengenus.org/implement-binary-search-tree-in-cpp/",
     "sourceImage": "https://iq.opengenus.org/content/images/2020/05/Screenshot-2020-05-27-at-3.59.30-PM.png",
     "credit": "OpenGenus",
     "retrievedOn": "2026-10-06",
-    "width": 755,
-    "height": 521,
-    "sha256": "ca7af4fe1eab83b2731a20b87723509aa2e172537480d945b9c20fce5a340a78",
-    "usage": "External reference imagery for the project topic or original game; not a screenshot of the portfolio author's implementation. Original image bytes are unchanged."
+    "width": 1280,
+    "height": 800,
+    "sha256": "606d9b91fd8ec4bba6e36d45f33c407c369a2295ec73825574f8dc67777d3c5d",
+    "usage": "SVG cover with an English topic title and the unmodified external reference diagram embedded. Diagram source credited beneath the thumbnail.",
+    "diagramFile": "binary-search-tree-reference.png"
   },
   {
     "project": "C++ Advanced algorithms",
-    "file": "shortest-path-reference.png",
-    "description": "Reference weighted graph showing the shortest paths found by Dijkstra's algorithm",
+    "file": "advanced-algorithms-cover.svg",
+    "description": "Advanced Algorithms cover with a C++ topic label and a Dijkstra shortest-path graph",
     "sourcePage": "https://www.programiz.com/dsa/dijkstra-algorithm",
     "sourceImage": "https://cdn.programiz.com/sites/tutorial2program/files/dj-8.png",
     "credit": "Programiz",
     "retrievedOn": "2026-10-06",
-    "width": 1460,
-    "height": 612,
-    "sha256": "39bbffb7416396c0426a742dbef99c45e354eb1b05d130e627eb5d426400c233",
-    "usage": "External reference imagery for the project topic or original game; not a screenshot of the portfolio author's implementation. Original image bytes are unchanged."
+    "width": 1280,
+    "height": 800,
+    "sha256": "7df2a3d24761688972890283813acb5423c3f9d1735079e7d45b064c2bcf6f4f",
+    "usage": "SVG cover with an English topic title and the unmodified external reference diagram embedded. Diagram source credited beneath the thumbnail.",
+    "diagramFile": "shortest-path-reference.png"
   },
   {
     "project": "Creating a custom engine using C++ (Unity Engine clone coding)",
@@ -140,19 +136,6 @@
     "width": 1137,
     "height": 1008,
     "sha256": "e94c5793d6d4242816f88e36c7f7778370c25f2604cec998f164f0a1f4551b52",
-    "usage": "External reference imagery for the project topic or original game; not a screenshot of the portfolio author's implementation. Original image bytes are unchanged."
-  },
-  {
-    "project": "Game Programmer Job Secrets (Large Company Actual Interview Collection)",
-    "file": "job-interview-reference.jpg",
-    "description": "Reference photograph of a candidate and interviewer talking in an office",
-    "sourcePage": "https://www.pexels.com/photo/job-interview-4895430/",
-    "sourceImage": "https://images.pexels.com/photos/4895430/pexels-photo-4895430.jpeg?auto=compress&cs=tinysrgb&w=960",
-    "credit": "Gustavo Fring",
-    "retrievedOn": "2026-10-06",
-    "width": 960,
-    "height": 640,
-    "sha256": "3d7967dacf78e9bf98eda2ff3a8cbeb872f0ec15c6f9501e4fb580578243b61f",
     "usage": "External reference imagery for the project topic or original game; not a screenshot of the portfolio author's implementation. Original image bytes are unchanged."
   }
 ]
