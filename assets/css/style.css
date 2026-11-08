@@ -1273,6 +1273,51 @@ a:focus-visible, button:focus-visible, [role='button']:focus-visible { outline: 
 .portfolio .project-card h3 { margin-bottom: 14px; }
 .resource-card .project-category { font-size: 14px; }
 .resource-card .project-link { font-size: 14px; padding: 8px 10px; }
+
+/* The linked biography opens above the portfolio without leaving the page. */
+body.about-dialog-open { overflow: hidden; }
+.about-dialog {
+  width: min(1000px, calc(100% - 48px));
+  max-width: none;
+  max-height: min(900px, calc(100vh - 48px));
+  max-height: min(900px, calc(100dvh - 48px));
+  margin: auto;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #596174;
+  border-radius: 16px;
+  background: #222837;
+  color: #d5ced9;
+  box-shadow: 0 24px 90px #0008;
+}
+.about-dialog:not([open]) { display: none; }
+.about-dialog[open] { display: flex; flex-direction: column; }
+.about-dialog::backdrop { background: rgb(8 11 19 / 80%); backdrop-filter: blur(5px); }
+.about-dialog-header { display: flex; align-items: center; justify-content: space-between; gap: 20px; flex-shrink: 0; padding: 22px 30px; border-bottom: 1px solid #454b5a; background: #191c24; }
+.about-dialog-eyebrow { margin: 0 0 6px; color: #0be8c6; font-size: 13px; line-height: 1.5; }
+.about-dialog-header h2 { margin: 0; color: #f4f6fd; font-size: 28px; line-height: 1.3; }
+.about-dialog-close { display: grid; place-items: center; flex-shrink: 0; width: 44px; height: 44px; padding: 0; border: 1px solid #596174; border-radius: 50%; background: #292f3d; color: #f4f6fd; font-size: 30px; line-height: 1; cursor: pointer; }
+.about-dialog-close:hover { background: #7133a3; border-color: #a74ded; }
+.about-dialog-content { min-height: 0; padding: 30px; overflow-y: auto; overscroll-behavior: contain; scrollbar-gutter: stable; font-family: 'Open Sans', sans-serif; font-size: 15px; line-height: 1.85; overflow-wrap: anywhere; }
+.about-dialog-content h3 { margin: 34px 0 18px; color: #ffda4c; font-size: 22px; line-height: 1.4; }
+.about-dialog-content > h3:first-child { margin-top: 0; }
+.about-dialog-content p { margin: 0 0 20px; }
+.about-dialog-columns { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 26px; margin: 22px 0; align-items: start; }
+.about-dialog-column { min-width: 0; }
+.about-dialog-column p:last-child { margin-bottom: 0; }
+.about-dialog-content img { display: block; width: 100%; height: auto; max-height: 450px; object-fit: contain; border-radius: 10px; }
+.about-dialog-source { margin-top: 34px !important; padding-top: 22px; border-top: 1px solid #454b5a; font-size: 14px; }
+.about-dialog-source a { color: #0be8c6; text-decoration: underline; text-underline-offset: 4px; }
+@media (max-width: 600px) {
+  .about-dialog { width: calc(100% - 20px); max-height: calc(100vh - 20px); max-height: calc(100dvh - 20px); border-radius: 12px; }
+  .about-dialog-header { padding: 18px; gap: 12px; }
+  .about-dialog-header h2 { font-size: 23px; }
+  .about-dialog-eyebrow { font-size: 11px; }
+  .about-dialog-content { padding: 22px 18px; font-size: 14px; }
+  .about-dialog-columns { grid-template-columns: minmax(0, 1fr); gap: 20px; }
+  .about-dialog-content img { max-height: 380px; }
+}
+@media print { .about-dialog { display: none !important; } }
 @media (max-width: 767px) {
   .resume .company-logo { width: 96px; height: 72px; margin-left: 14px; }
   .company-logo--oz::before { transform: scale(.9); flex-shrink: 0; }

@@ -41,7 +41,7 @@
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="assets/css/style.css?v=portfolio-polish-20261108" rel="stylesheet">
+  <link href="assets/css/style.css?v=about-dialog-20261108" rel="stylesheet">
 
   <!-- Code highlighting library -->
   <link rel="stylesheet" href="assets/css/code_highlighting/tomorrow-night-bright.css">
@@ -119,7 +119,7 @@ struct PersonalTraits
             <h3 class="yellow about-heading">About myself</h3>
             <p>I am a passionate and driven programmer who has been developing games through real-time computer graphics technology. I have a strong foundation in problem-solving skills and have gained excellent communication and teamwork abilities through various roles. Additionally, I strive to bring initiative and creativity to my team.</p>
             <p>You can check out my full portfolio on <a href="https://github.com/eazuooz" target="_blank" rel="noopener noreferrer">GitHub</a>. Furthermore, I run an educational <a href="https://www.youtube.com/@yamyamcoding" target="_blank" rel="noopener noreferrer">YouTube</a> channel with the hope of making complex game programming easier to learn and contributing to diverse game development in South Korea.</p>
-            <div class="about-links"><a href="https://app.notion.com/p/More-About-Me-1b80b1ffa61e8035be1ed4cbc85ca214?pvs=21" target="_blank" rel="noopener noreferrer">More about me</a> &middot; <a href="https://www.yamyamcoding.com/" target="_blank" rel="noopener noreferrer">YamYamCoding</a></div>
+            <div class="about-links"><a id="about-dialog-trigger" href="https://app.notion.com/p/More-About-Me-1b80b1ffa61e8035be1ed4cbc85ca214?pvs=21" target="_blank" rel="noopener noreferrer" aria-haspopup="dialog" aria-controls="about-dialog">More about me</a> &middot; <a href="https://www.yamyamcoding.com/" target="_blank" rel="noopener noreferrer">YamYamCoding</a></div>
           </div>
           <div class="col-lg-4" data-aos="fade-left">
             <img src="assets/img/jay/jay-lee.jpg" class="img-fluid portrait" alt="Portrait of Jay Lee" loading="lazy">
@@ -525,6 +525,59 @@ struct PersonalTraits
     </section>
   </main>
 
+  <!-- Content from the linked More About Me page, preserved without rewriting the biography. -->
+  <dialog id="about-dialog" class="about-dialog" aria-labelledby="about-dialog-title">
+    <div class="about-dialog-header">
+      <div><p class="about-dialog-eyebrow">Jay Lee · Game, Graphics Programmer</p><h2 id="about-dialog-title">More about me</h2></div>
+      <button type="button" class="about-dialog-close" aria-label="Close More about me" autofocus><span aria-hidden="true">&times;</span></button>
+    </div>
+    <div class="about-dialog-content">
+      <h3><strong>About Me</strong></h3>
+      <p>I readily take on unfamiliar tasks. Rather than overthinking new challenges, I prefer to take action first. I strive to find both enjoyment and efficiency in everything I do. While working on various projects, I often contemplate questions like &quot;What kind of game would be more fun?&quot; or &quot;What rules could we add to make the gameplay more engaging?&quot;</p>
+      <div class="about-dialog-columns">
+      <div class="about-dialog-column">
+      <p>I endure the challenges that come with game development. I continuously seek new methods while maintaining my enthusiasm and interest in game development and completion. I'm also steadfast and grounded, remaining unshaken by external pressures. Whether facing strong winds, snow, or rain, I possess an unwavering persistence.</p>
+      <p><br>When a project isn't progressing smoothly, I always ask myself, &quot;What do I need to do right now?&quot; Even when thoughts are numerous and situations are complex, by focusing only on what's important and pursuing my goals, I find myself steadily building skills without being swayed by trivial emotions.<br>These strengths of mine provide me with both inner fortitude and delicate approachability, and I believe they make me someone who can not only succeed in future endeavors but also earn the deep trust of colleagues.</p>
+      </div>
+      <div class="about-dialog-column">
+      <img src="assets/img/jay/jay-lee.jpg" alt="Portrait of Jay Lee" width="591" height="787" loading="lazy" decoding="async">
+      </div>
+      </div>
+      <h3>Communication</h3>
+      <div class="about-dialog-columns">
+      <div class="about-dialog-column">
+      <p>I believe that actions speak louder than words. Before starting our 3D portfolio team project, I saw communication conflicts among others and wondered if team collaboration was the right choice, but I believed that teamwork would enable us to create a portfolio with more content and better quality.</p>
+      </div>
+      <div class="about-dialog-column">
+      <img src="assets/img/about/team-prototype.jpg" alt="Group photo from the More About Me page" width="960" height="394" loading="lazy" decoding="async">
+      </div>
+      </div>
+      <p>After considering 'How can we proceed smoothly?', we established our team's rules for thorough role distribution and opinion coordination. For instance, one of our special team agreements was that if someone wanted to implement certain technology or content, they would first complete their assigned tasks, then create a simple prototype to demonstrate and propose their idea.</p>
+      <p>This results-oriented approach helped prevent time lost in excessive communication, enhanced individual team members' capabilities, and allowed us to focus on completing the game and improving its quality.</p>
+      <div class="about-dialog-columns">
+      <div class="about-dialog-column">
+      <img src="assets/img/about/team-work.jpg" alt="Large team gathering from the More About Me page" width="960" height="720" loading="lazy" decoding="async">
+      </div>
+      <div class="about-dialog-column">
+      <p>Another special rule of our team was to boldly postpone unfinished work within deadlines and move on to the next task. While it's not easy to eliminate conflicts in communication with various people, by properly utilizing given promises and rules, and always being aware of team rules, we could reduce conflicts and focus solely on creating better work. After all, we must not lose sight of our essential goal: completing the game.</p>
+      </div>
+      </div>
+      <h3>Problem-Solving Ability</h3>
+      <p>When making games, we encounter various problems. In such situations, my team and I focus solely on problem-solving.</p>
+      <p>When we find a solution, we immediately apply it to our game. When creating an Auto Chess game, we needed to devise a way to prevent chess pieces from overlapping. I spent days thinking about solutions - on the subway, walking home, even while talking with friends.</p>
+      <p>Then suddenly, &quot;Yes, let's create a Static object to share position data between pieces!&quot; Once the direction for problem-solving is set, implementation is just a matter of investing time. After completing about three projects using such methods, I've come to believe there's no content we can't create.</p>
+      <p>While nothing in the world is easy, if we focus on the essence of the current problem and break down larger issues into smaller, ordered steps, there's no problem we can't solve. When focusing solely on problem-solving, we often encounter unexpected situations requiring exception handling.</p>
+      <p>To prevent such situations, I have a coding habit of always using breakpoints and watch expressions to visually verify values after writing code. By being meticulous in checking values and focusing on solving problems one by one, I've always been able to complete projects while meeting deadlines.</p>
+      <h3>Resource Management Ability</h3>
+      <p>My life philosophy is to continuously seek new methods without being bound by specific approaches or existing values.</p>
+      <p>While making games, we face many challenging situations. Beyond just focusing on development, we encounter various issues like managing living expenses and maintaining physical health.</p>
+      <p>Reflecting on how we managed to complete development within set periods despite such circumstances, we chose to minimize unnecessary elements and focus maximally on the immediate problems at hand. During development periods, we addressed physical health through quick, high-intensity workouts to maintain focus on development. Additionally, when implemented logic wasn't working properly or theoretical errors were found, I often solved problems by redesigning with new logic.</p>
+      <p>When trying to solve problems while being tied to existing logic, our perspective becomes confined to that approach, making it difficult to think of new methods or paradigm shifts. Therefore, discarding unnecessary methods and resources and focusing intensely on one resource while seeking various solutions has been my driving force for continuous development.</p>
+      <p>I believe workplace perfection isn't about endlessly pursuing everything, but rather being able to focus on the single task at hand.</p>
+      <p class="about-dialog-source"><a href="https://app.notion.com/p/More-About-Me-1b80b1ffa61e8035be1ed4cbc85ca214?pvs=21" target="_blank" rel="noopener noreferrer">Open the original page in Notion <i class="icofont-external-link" aria-hidden="true"></i></a></p>
+    </div>
+  </dialog>
+
   <footer id="footer"><div class="container"><div class="credits">
     Website by <span class="yellow">Jay Lee</span><br>
     Originally designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
@@ -542,6 +595,6 @@ struct PersonalTraits
   <script src="assets/vendor/typed.js/typed.min.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/js/main.min.js?v=graphics-resources-20261108"></script>
-  <script src="assets/js/portfolio.js"></script>
+  <script src="assets/js/portfolio.js?v=about-dialog-20261108"></script>
 </body>
 </html>
