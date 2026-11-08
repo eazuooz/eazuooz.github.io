@@ -1,52 +1,92 @@
-[
-  {
-    "employer": "Krafton (inZOI Studio)",
-    "file": "krafton.png",
-    "type": "company logo",
-    "width": 1200,
-    "height": 628,
-    "asset_url": "https://www.krafton.com/wp-content/uploads/2021/07/KRAFTON_OG_Image.png",
-    "source_page": "https://www.krafton.com/",
-    "note": "Official KRAFTON domain. Current asset is a red K symbol and KRAFTON wordmark on white; inspected after download."
-  },
-  {
-    "employer": "Oz Intermedia (OZ Online)",
-    "file": "oz-online.jpg",
-    "type": "game logo",
-    "width": 92,
-    "height": 62,
-    "asset_url": "https://image.oz.co.kr/common/bi_flogo2.jpg",
-    "source_page": "https://www.oz.co.kr/Main/About",
-    "note": "Official OZ Online footer logo referenced in https://www.oz.co.kr/Common/CSS/KR/Web/layout.css. Company's footer text identifies Oz Intermedia. Prefer natural-size rendering; separate company wordmark oz-intermedia.gif is only 102x9 and unsuitable for enlargement."
-  },
-  {
-    "employer": "Neorock (Game Engine Development Instructor)",
-    "file": "neorock.png",
-    "type": "academy brand logo",
-    "width": 1480,
-    "height": 1479,
-    "asset_url": "https://file.gamejob.co.kr/net/Corp/CoImage/LogoView?FN=2023%5C11%5CGJ_CoLogo_42361523.png?638346202550000000",
-    "source_page": "https://www.gamejob.co.kr/Company/Detail?M=42361523",
-    "note": "Company listing named 네오락 uses the Assort Rock logo. Listing states game-programmer education and address at 어소트락; job advertisement https://www.gamejob.co.kr/Recruit/GI_READ/View?GI_No=272757 also explicitly associates 네오락 and 어소트락. Official academy favicon assortrock.svg is also downloaded but embeds only a 106x44 raster."
-  },
-  {
-    "employer": "Dave Studio (Luna)",
-    "file": "dave-luna.jpg",
-    "type": "game header artwork",
-    "width": 460,
-    "height": 215,
-    "asset_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1218360/header.jpg?t=1591341605",
-    "source_page": "https://store.steampowered.com/app/1218360",
-    "note": "Official Steam listing identifies Dave Studio as developer and publisher of Luna: The Dimension Watcher. Use alt text identifying the game artwork, not a Dave Studio corporate logo."
-  },
-  {
-    "employer": "Neople (Dungeon & Fighter)",
-    "file": "neople.jpg",
-    "type": "company logo",
-    "width": 980,
-    "height": 735,
-    "asset_url": "https://img.koreatimes.co.kr/upload/newsV2/images/202006/c094128390b2403db19ff0d03c6708d5.jpg",
-    "source_page": "https://www.koreatimes.co.kr/business/companies/20200625/neople-to-support-local-community",
-    "note": "Article credits the Neople logo to Nexon. Official identity matched against https://www.neople.co.kr/introduce. Direct official CI asset download was blocked by Cloudflare. Full CI including WE MAKE WONDERS! retained, per official usage instruction."
-  }
-]
+{
+  "assets": [
+    {
+      "name": "inZOI Studio",
+      "file": "inzoi-studio-white.png",
+      "source_page": "https://krafton.com/en/studios/inzoi/",
+      "asset_url": "https://www.krafton.com/wp-content/uploads/2024/12/inZOI-Studio-White-Logo.png",
+      "type": "Official studio logo, white on transparent",
+      "canvas": [
+        500,
+        234
+      ],
+      "visible_bbox_alpha_gte_16": [
+        49,
+        49,
+        403,
+        136
+      ],
+      "notes": "Studio branding includes STUDIO wordmark. Not the inZOI game title logo or generic Krafton logo. Downloaded byte-for-byte."
+    },
+    {
+      "name": "OZ Online / Oz Intermedia",
+      "file": "oz-online-header-transparent.png",
+      "source_page": "https://www.oz.co.kr/Main/About",
+      "asset_url": "https://image.oz.co.kr/Common/bg/bg_mainmenuNoFlash2.png",
+      "type": "Official game header logo on transparent canvas",
+      "canvas": [
+        980,
+        245
+      ],
+      "visible_bbox_alpha_gte_16": [
+        204,
+        54,
+        211,
+        169
+      ],
+      "notes": "The blank-looking white area has alpha=0. Use CSS viewport/positioning to show the logo without editing pixels. Original asset retains the Korean game tagline."
+    },
+    {
+      "name": "AssortRock Game Academy",
+      "file": "assortrock-symbol.svg",
+      "source_page": "https://assortrock.com/assortrock/introduce",
+      "asset_url": "https://assortrock.com/logo/logo-single.svg",
+      "type": "Official academy AK symbol, transparent SVG container with original embedded PNG",
+      "canvas": [
+        53,
+        22
+      ],
+      "notes": "Use SVG file directly: its official viewport clips the embedded full wordmark to the AK symbol. The inspection-only extracted assortrock-symbol-original.png contains full 478x44 artwork and is not the recommended symbol file. Neorock/네오락 identity association verified by https://www.gamejob.co.kr/Company/Detail?M=42361523 and https://www.gamejob.co.kr/Recruit/GI_READ/View?GI_No=272757."
+    },
+    {
+      "name": "Luna / Dave Studio",
+      "file": "luna-logo.png",
+      "source_page": "https://store.steampowered.com/app/1218360",
+      "discovery_page": "https://steamdb.info/app/1218360/screenshots/",
+      "asset_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1218360/logo.png",
+      "type": "Official Steam library game logo on transparent",
+      "canvas": [
+        640,
+        360
+      ],
+      "visible_bbox_alpha_gte_16": [
+        8,
+        52,
+        620,
+        256
+      ],
+      "notes": "Store identifies Dave Studio as developer and publisher. Use alt text identifying Luna artwork, not a Dave Studio company logo. Downloaded without edits."
+    },
+    {
+      "name": "Neople",
+      "file": "neople-official-sprite.png",
+      "source_page": "https://www.dfoneople.com/",
+      "stylesheet_url": "https://static.dfoneople.com/css/renewal/common.css?ver=260804",
+      "asset_url": "https://static.dfoneople.com/img/renewal/common/sp_common.png",
+      "type": "Official transparent Neople footer identity within CSS sprite",
+      "canvas": [
+        340,
+        230
+      ],
+      "logo_viewport": [
+        160,
+        30,
+        66,
+        35
+      ],
+      "official_css": ".footer_ci{width:66px;height:35px;background:url(../../img/renewal/common/sp_common.png) no-repeat -160px -30px;}",
+      "notes": "Gray and yellow brand mark plus WE MAKE WONDERS! slogan, transparent backdrop. Use CSS background-position or an overflow viewport, without changing bitmap data. neople-official.png is a separate low-resolution Korean footer asset with opaque background and is not recommended."
+    }
+  ],
+  "work": "All downloads are unmodified source assets. Extracted PNGs only decode the exact embedded original image bytes from official SVGs. alpha-analysis.json contains read-only pixel analysis; no bitmap editing was performed."
+}

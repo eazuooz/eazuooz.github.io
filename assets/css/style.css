@@ -1257,18 +1257,26 @@ a:focus-visible, button:focus-visible, [role='button']:focus-visible { outline: 
 
 /* Free study resources and professional experience images. */
 #hero .hero-heading .blue { overflow-wrap: anywhere; }
-.resume .company-item { display: flow-root; min-height: 106px; }
-.resume .company-logo { float: right; width: 104px; height: 76px; max-width: none; object-fit: contain; margin: 0 0 14px 16px; padding: 5px; background: #fff; border-radius: 6px; }
-.resource-cover { display: flex; position: relative; align-items: center; justify-content: center; width: 100%; height: 200px; flex-shrink: 0; background-color: #1b2330; background-image: linear-gradient(#ffffff04 1px, transparent 1px), linear-gradient(90deg, #ffffff04 1px, transparent 1px); background-size: 24px 24px; border-bottom: 1px solid #454b5a; }
-.resource-cover-label { position: absolute; top: 15px; left: 20px; color: #aeb9ca; font: 12px 'Inconsolata', monospace; letter-spacing: 1.5px; }
-.resource-cover svg { width: 90%; height: 154px; margin-top: 22px; }
-.resource-cover:hover { background-color: #202d3e; }
-.portfolio .resource-description { color: #bac3d1; font-size: 15px; line-height: 1.7; margin: 0 0 22px; }
-.portfolio .resource-card h3 { margin-bottom: 14px; }
+.resume .company-item { display: flow-root; min-height: 116px; }
+.resume .company-logo { position: relative; display: flex; align-items: center; justify-content: center; float: right; width: 120px; height: 80px; max-width: none; overflow: hidden; margin: 0 0 16px 20px; padding: 0; background: transparent; border-radius: 0; }
+.company-logo img { display: block; width: 100%; height: 100%; max-width: none; object-fit: contain; flex-shrink: 0; }
+.company-logo--inzoi img { width: 124%; }
+.company-logo--assortrock img { width: 88%; }
+/* Display the logo regions defined by the publishers, retaining the original transparent files. */
+.company-logo--oz::before { content: ""; width: 95px; height: 76px; background: url('../img/companies/oz-online-header-transparent.png') -91.8px -24.3px / 441px 110.25px no-repeat; }
+.company-logo--neople::before { content: ""; width: 106px; height: 56px; background: url('../img/companies/neople-official-sprite.png') -256px -48px / 544px 368px no-repeat; }
+.resume .company-role { color: #bac3d1; font-size: 15px; line-height: 1.5; }
+.resource-cover { display: flex; position: relative; align-items: center; justify-content: center; width: 100%; height: 210px; flex-shrink: 0; background: #1d212b; }
+.resource-cover img { display: block; width: 100%; height: 100%; object-fit: contain; }
+.resource-cover:focus-visible { outline-offset: -4px; }
+.portfolio .project-description { color: #bac3d1; font-size: 15px; line-height: 1.7; margin: 0 0 22px; }
+.portfolio .project-card h3 { margin-bottom: 14px; }
 .resource-card .project-category { font-size: 14px; }
 .resource-card .project-link { font-size: 14px; padding: 8px 10px; }
 @media (max-width: 767px) {
-  .resume .company-logo { width: 88px; height: 68px; margin-left: 12px; }
+  .resume .company-logo { width: 96px; height: 72px; margin-left: 14px; }
+  .company-logo--oz::before { transform: scale(.9); flex-shrink: 0; }
+  .company-logo--neople::before { transform: scale(.85); flex-shrink: 0; }
   .resume .company-item { min-height: 100px; }
   .resume .company-item h4 { font-size: 19px; }
   .resource-cover { height: 190px; }
